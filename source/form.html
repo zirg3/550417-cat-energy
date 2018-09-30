@@ -25,7 +25,7 @@
       </nav>
     </header>
     <main class="page-main">
-      <form class="program" method="get" action="https://echo.htmlacademy.ru">
+      <form class="program" method="post" action="https://echo.htmlacademy.ru">
         <h1 class="program__title">Подбор программы</h1>
         <p>Заполните анкету и мы подберем программу питания для вашего кота</p>
         <div class="program__questionnaire">
@@ -50,15 +50,15 @@
           <fieldset class="program__second line">
             <ul>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-name">
+                <input class="line__input" type="radio" name="weight" id="cat-slim">
                 <label class="line__label" for="cat-slim">Похудение</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-weight">
+                <input class="line__input" type="radio" name="weight" id="cat-pro">
                 <label class="line__label" for="cat-pro">Набор массы</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-age">
+                <input class="line__input" type="radio" name="weight" id="cat-advice">
                 <label class="line__label" for="cat-advice">Не знаю (Нужен ваш совет)</label>
               </li>
             </ul>
@@ -66,13 +66,13 @@
           <fieldset class="program__contact line">
             <legend class="line__legend">Контактные данные(владельца кота)</legend>
             <ul>
-              <li class="class="line__li"">
+              <li class="line__li">
                 <label class="line__label" for="cat-email">E-mail:*</label>
-                <input class="line__input" type="text" name="email" id="cat-email" placeholder="kuklachev@gmail.com">
+                <input class="line__input" type="email" name="email" id="cat-email" placeholder="kuklachev@gmail.com">
               </li>
-              <li class="class="line__li"">
+              <li class="line__li">
                 <label class="line__label" for="cat-tel">Телефон:*</label>
-                <input class="line__input" type="text" name="tel" id="cat-tel" placeholder="8 (960) 900-60-90">
+                <input class="line__input" type="tel" name="tel" id="cat-tel" placeholder="8 (960) 900-60-90">
               </li>
             </ul>
           </fieldset>
@@ -84,20 +84,20 @@
             <legend class="line__legend">Дополнительно</legend>
             <ul>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-name" checked>
-                <label class="line__label" for="cat-slim">Сахарозаменитель</label>
+                <input class="line__input" type="checkbox" name="weight" id="cat-sugar" checked>
+                <label class="line__label" for="cat-sugar">Сахарозаменитель</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-weight">
-                <label class="line__label" for="cat-pro">Питьевая вода</label>
+                <input class="line__input" type="checkbox" name="weight" id="cat-water">
+                <label class="line__label" for="cat-water">Питьевая вода</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-age">
-                <label class="line__label" for="cat-advice">Молоко</label>
+                <input class="line__input" type="checkbox" name="weight" id="cat-milk">
+                <label class="line__label" for="cat-milk">Молоко</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-age">
-                <label class="line__label" for="cat-advice">Витамины</label>
+                <input class="line__input" type="checkbox" name="weight" id="cat-vit">
+                <label class="line__label" for="cat-vit">Витамины</label>
               </li>
             </ul>
           </fieldset>
@@ -105,7 +105,7 @@
           <span class="field-req">* — Обязательные поля</span>
         </div>
       </form>
-    <main class="page-main">
+    </main>
     <footer class="page-footer">
       <section class="about-us">
         <div class="about-us__invite">
