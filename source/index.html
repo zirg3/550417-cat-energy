@@ -3,17 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	  <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <a class="page-header__logo">
-        <img class="page-header__logo" src="http://placehold.it/150x100" width="150" height="30" alt="лого">
+        <img class="page-header__logo" src="img/logo-mobile.svg" width="200" height="45" alt="лого">
       </a>
       <nav class="main-navi">
         <button class="main-navi__toggle" type="button">Открыть меню</button>
         <ul class="main-navi__list">
           <li class="main-navi__item">
-            <a>Главная</a>
+            <a class="main-navi_current">Главная</a>
           </li>
           <li class="main-navi__item">
             <a href="catalog.html">Каталог продукции</a>
@@ -30,17 +32,17 @@
           <h1 class="promo__title">Функциональное питание для котов</h1>
           <p class="promo__intro">Занялся собой? Займись котом!</p>
         </div>
-        <img src="http://placehold.it/150x100" width="50" height="30" alt="банка корма">
-        <a href="#" class="promo__btn">Подобрать программу</a>
+        <img src="img/index-can-mobile@1x.png" width="280" height="270" alt="банка корма">
+        <a href="#" class="promo__btn button">Подобрать программу</a>
       </section>
       <section class="function">
         <div class="function__wrapper">
-          <h2>Похудение</h2>
+          <h2 class="function__tittle--1">Похудение</h2>
           <p>Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
           <a href="catalog-slim.html">Каталог slim</a>
         </div>
         <div class="function__wrapper">
-          <h2>Набор массы</h2>
+          <h2 class="function__tettle--2">Набор массы</h2>
           <p>Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
           <a href=" catalog-pro.html">Каталог pro</a>
         </div>
@@ -52,7 +54,7 @@
             <li class="advantages__item advantages__item--1">Функциональное питание содержит только полезные питательные вещества.</li>
             <li class="advantages__item advantages__item--2">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
             <li class="advantages__item advantages__item--3">Замените один-два приема обычной еды на наше фунцкциональное питание.</li>
-            <li class="advantages__item advantages__item--4">Уже через месяц наслаждайтесь изменениями вашего питомца</li>
+            <li class="advantages__item advantages__item--4">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</li>
           </ul>
         </div>
       </section>
@@ -63,17 +65,17 @@
           <div class="example__container">
             <div class="example__effect">
               <p class="example__stats">5 кг</p>
-              <p>снижение веса</p>
+              <p class="example__val">снижение веса</p>
             </div>
             <div class="example__effect">
               <p class="example__stats">60 дней</p>
-              <p>затрачено времени</p>
+              <p class="example__val">затрачено времени</p>
             </div>
             <p class="example__cost">Затраты на питание: 15 000 руб.</p>
-            <img class="example__img" src="http://placehold.it/150x100" width="150" height="130" alt="толстый котик">
+            <img class="example__img" src="img/before-mobile@1x.png" width="311" height="232" alt="толстый котик">
             <div class="example__toggle">
-              <button class="example__value example__value--before " type="button" name="button"></button>
-              <button class="example__value example__value--after" type="button" name="button"></button>
+              <button class="example__value example__value--before" type="button" name="button">Было</button>
+              <button class="example__value example__value--after" type="button" name="button">Стало</button>
             </div>
           </div>
         </div>
@@ -87,22 +89,22 @@
         <div class="about-us__address">
           <p>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
         </div>
-        <img src="http://placehold.it/150x100" width="150" height="130" alt="карта">
+        <img src="img/bg-map-mobile@1x.png" width="320" height="363" alt="карта">
       </section>
-      <a>
-        <img src="http://placehold.it/150x100" width="150" height="130" alt="логотип">
+      <a class="page-footer__logo">
+        <img src="img/logo-footer.svg" width="128" height="24" alt="логотип">
       </a>
       <div class="page-footer__wrapper">
         <div class="page-footer__social social">
           <ul>
-            <li><a class="social__link social__link--vkontakte" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="вк"></a></li>
-            <li><a class="social__link social__link--instagram" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="инст"></a></li>
-            <li><a class="social__link social__link--facebook" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="фб"></a></li>
+            <li><a class="social__link social__link--vkontakte" href="#"><img src="img/icon-vk.svg" width="16" height="16" alt="вк"></a></li>
+            <li><a class="social__link social__link--instagram" href="#"><img src="img/icon-insta.svg" width="16" height="16" alt="инст"></a></li>
+            <li><a class="social__link social__link--facebook" href="#"><img src="img/icon-fb.svg" width="16" height="16" alt="фб"></a></li>
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
           <p class="copyright__academy">HTML Academy</p>
-          <a href="https://htmlacademy.ru/intensive/adaptive"><img class="copyright__logo" src="http://placehold.it/150x100" alt="лого"></a>
+          <a href="https://htmlacademy.ru/intensive/adaptive"><img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="лого"></a>
         </div>
       </div>
     </footer>

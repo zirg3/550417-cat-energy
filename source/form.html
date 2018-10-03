@@ -2,12 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>>TML Academy: Кэт энерджи</title>
+    <title>HTML Academy: Кэт энерджи</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	  <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo" src="http://placehold.it/150x100" width="150" height="30" alt="лого">
+        <img class="page-header__logo" src="img/logo-mobile.svg" width="200" height="45" alt="лого">
       </a>
       <nav class="main-navi">
         <button class="main-navi__toggle" type="button">Открыть меню</button>
@@ -19,7 +21,7 @@
             <a href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-navi__item">
-            <a>Подбор программы</a>
+            <a class="main-navi_current">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -27,22 +29,22 @@
     <main class="page-main">
       <form class="program" method="post" action="https://echo.htmlacademy.ru">
         <h1 class="program__title">Подбор программы</h1>
-        <p>Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <p class="program__title__recomend">Заполните анкету и мы подберем программу питания для вашего кота</p>
         <div class="program__questionnaire">
           <fieldset class="program__first line">
             <div class="program__wrapper">
               <ul>
                 <li class="line__li">
                   <label class="line__label" for="cat-name">Имя:*</label>
-                  <input class="line__input" type="text" name="name" id="cat-name" placeholder="Барсик">
+                  <input class="line__input line__decorate" type="text" name="name" id="cat-name" placeholder="Барсик">
                 </li>
                 <li class="line__li">
                   <label class="line__label" for="cat-weight">Вес (кг):*</label>
-                  <input class="line__input" type="number" name="weight" id="cat-weight" placeholder="7">
+                  <input class="line__input line__decorate" type="number" name="weight" id="cat-weight" placeholder="7">
                 </li>
                 <li class="line__li">
                   <label class="line__label" for="cat-age">Возраст (лет):</label>
-                  <input class="line__input" type="number" name="age" id="cat-age" placeholder="7">
+                  <input class="line__input line__decorate" type="number" name="age" id="cat-age" placeholder="7">
                 </li>
               </ul>
             </div>
@@ -50,15 +52,15 @@
           <fieldset class="program__second line">
             <ul>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-slim">
+                <input class="line__input line__check-radio" type="radio" name="weight" id="cat-slim">
                 <label class="line__label" for="cat-slim">Похудение</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-pro">
+                <input class="line__input line__check-radio" type="radio" name="weight" id="cat-pro">
                 <label class="line__label" for="cat-pro">Набор массы</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="radio" name="weight" id="cat-advice">
+                <input class="line__input line__check-radio" type="radio" name="weight" id="cat-advice">
                 <label class="line__label" for="cat-advice">Не знаю (Нужен ваш совет)</label>
               </li>
             </ul>
@@ -68,40 +70,40 @@
             <ul>
               <li class="line__li">
                 <label class="line__label" for="cat-email">E-mail:*</label>
-                <input class="line__input" type="email" name="email" id="cat-email" placeholder="kuklachev@gmail.com">
+                <input class="line__input line__decorate" type="email" name="email" id="cat-email" placeholder="kuklachev@gmail.com">
               </li>
               <li class="line__li">
                 <label class="line__label" for="cat-tel">Телефон:*</label>
-                <input class="line__input" type="tel" name="tel" id="cat-tel" placeholder="8 (960) 900-60-90">
+                <input class="line__input line__decorate" type="tel" name="tel" id="cat-tel" placeholder="8 (960) 900-60-90">
               </li>
             </ul>
           </fieldset>
           <fieldset class="program__comment line">
             <legend class="line__legend">Комментарий</legend>
-              <textarea class="program__comment-text" name="comment" id="comment" rows="8" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
+              <textarea class="program__comment-text" name="comment" id="comment" rows="8" cols="50" placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА"></textarea>
           </fieldset>
           <fieldset class="program__extra line">
             <legend class="line__legend">Дополнительно</legend>
             <ul>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-sugar" checked>
+                <input class="line__input line__check-radio" type="checkbox" name="weight" id="cat-sugar" checked>
                 <label class="line__label" for="cat-sugar">Сахарозаменитель</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-water">
+                <input class="line__input line__check-radio" type="checkbox" name="weight" id="cat-water">
                 <label class="line__label" for="cat-water">Питьевая вода</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-milk">
+                <input class="line__input line__check-radio" type="checkbox" name="weight" id="cat-milk">
                 <label class="line__label" for="cat-milk">Молоко</label>
               </li>
               <li class="line__li">
-                <input class="line__input" type="checkbox" name="weight" id="cat-vit">
+                <input class="line__input line__check-radio" type="checkbox" name="weight" id="cat-vit">
                 <label class="line__label" for="cat-vit">Витамины</label>
               </li>
             </ul>
           </fieldset>
-          <button class="program__btn" type="submit" name="send">Отправить заявку</button>
+          <button class="program__btn button" type="submit" name="send">Отправить заявку</button>
           <span class="field-req">* — Обязательные поля</span>
         </div>
       </form>
@@ -114,22 +116,22 @@
         <div class="about-us__address">
           <p>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
         </div>
-        <img src="http://placehold.it/150x100" width="150" height="130" alt="карта">
+        <img src="img/bg-map-mobile@1x.png" width="320" height="363" alt="карта">
       </section>
-      <a>
-        <img src="http://placehold.it/150x100" width="150" height="130" alt="логотип">
+      <a class="page-footer__logo">
+        <img src="img/logo-footer.svg" width="128" height="24" alt="логотип">
       </a>
       <div class="page-footer__wrapper">
         <div class="page-footer__social social">
           <ul>
-            <li><a class="social__link social__link--vkontakte" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="вк"></a></li>
-            <li><a class="social__link social__link--instagram" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="инст"></a></li>
-            <li><a class="social__link social__link--facebook" href="#"><img src="http://placehold.it/150x100" width="50" height="30" alt="фб"></a></li>
+            <li><a class="social__link social__link--vkontakte" href="#"><img src="img/icon-vk.svg" width="16" height="16" alt="вк"></a></li>
+            <li><a class="social__link social__link--instagram" href="#"><img src="img/icon-insta.svg" width="16" height="16" alt="инст"></a></li>
+            <li><a class="social__link social__link--facebook" href="#"><img src="img/icon-fb.svg" width="16" height="16" alt="фб"></a></li>
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
           <p class="copyright__academy">HTML Academy</p>
-          <a href="https://htmlacademy.ru/intensive/adaptive"><img class="copyright__logo" src="http://placehold.it/150x100" alt="лого"></a>
+          <a href="https://htmlacademy.ru/intensive/adaptive"><img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="лого"></a>
         </div>
       </div>
     </footer>

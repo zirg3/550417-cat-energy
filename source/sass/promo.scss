@@ -1,0 +1,44 @@
+.promo {
+  margin-bottom: 22px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 482px;
+  align-items: center;
+}
+
+.promo__title {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  padding-top: 29px;
+  padding-bottom: 19px;
+  margin: 0;
+}
+
+.promo__intro {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 29px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.promo__container {
+  background-image: url(../img/index-background-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  min-height: 305px;
+  text-align: center;
+}
+
+.promo img {
+  position: absolute;
+  top: 167px;
+}
