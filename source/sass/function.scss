@@ -31,8 +31,8 @@
 }
 
 .function__wrapper a::after {
-  content: '';
-  background-image: url(../img/icon-right-arrow-long.svg);
+  content: "";
+  background: url(../img/icon-right-arrow-long.svg);
   position: absolute;
   width: 24px;
   height: 11px;
@@ -41,7 +41,7 @@
 }
 
 .function {
+  margin: 0 auto;
   margin-bottom: 32px;
   width: 280px;
-  margin: 0 auto;
 }
