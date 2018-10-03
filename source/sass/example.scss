@@ -1,5 +1,5 @@
 .example__title {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 60px;
   color: #111111;
@@ -18,7 +18,7 @@
 }
 
 .example__story {
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #444444;
@@ -29,7 +29,7 @@
 }
 
 .example__stats {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -38,7 +38,7 @@
 }
 
 .example__val {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
   color: #444444;
