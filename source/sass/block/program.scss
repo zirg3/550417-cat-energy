@@ -13,7 +13,7 @@
   padding-left: 20px;
 }
 
-.program__title__recomend {
+.program__title-recomend {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -25,4 +25,16 @@
 
 .program__questionnaire li {
   list-style: none;
+}
+
+.program__comment-text {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  box-sizing: border-box;
+  padding: 13px 13px 0 13px;
+  height: 150px;
+  width: 280px;
 }

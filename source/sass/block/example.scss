@@ -2,6 +2,7 @@
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 60px;
+  font-weight: 400;
   color: #111111;
   text-align: left;
   margin-left: 20px;
@@ -35,6 +36,7 @@
   font-weight: 400;
   color: #111111;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .example__val {
@@ -61,6 +63,6 @@
   font-weight: 400;
   color: #111111;
   border: none;
-  background-color: #f2f2f2;
+  background-color: transparent;
   margin-bottom: 34px;
 }
