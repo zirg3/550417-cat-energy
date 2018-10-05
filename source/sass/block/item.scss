@@ -4,6 +4,7 @@
   line-height: 20px;
   font-weight: 400;
   color: #111111;
+  margin-top: 20px;
 }
 
 .item__name {
@@ -13,6 +14,7 @@
   font-weight: 400;
   color: #444444;
   text-align: left;
+  padding: 0;
 }
 
 .item__value {
@@ -21,4 +23,15 @@
   line-height: 16px;
   font-weight: 400;
   color: #444444;
+  text-align: right;
+  padding: 0;
+}
+
+.item__box {
+  display: flex;
+}
+
+.item__feature {
+  display: flex;
+  flex-direction: column;
 }
