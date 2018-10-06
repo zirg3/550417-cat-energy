@@ -1,0 +1,22 @@
+.main-navi__item:hover,
+.main-navi__item:focus {
+  opacity: 0.8;
+}
+
+.main-navi__item:active {
+  opacity: 0.6;
+}
+
+.main-navi_current {
+  border-bottom: 2px solid #68b738;
+  padding-bottom: 9px;
+}
+
+.main-navi__item {
+  text-align: center;
+}
+
+.main-navi__list {
+  margin: 0;
+  padding: 0 20px;
+}

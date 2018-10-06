@@ -1,0 +1,47 @@
+.function h2 {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: #111111;
+  padding-top: 38px;
+}
+
+.function p {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 23px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+.function__wrapper {
+  background: #f2f2f2;
+  padding-bottom: 22px;
+  padding-left: 21px;
+}
+
+.function__wrapper a {
+  color: #111111;
+  position: relative;
+}
+
+.function__wrapper a::after {
+  content: "";
+  background: url("../img/icon-right-arrow-long.svg");
+  position: absolute;
+  width: 24px;
+  height: 11px;
+  top: 3px;
+  left: 88px;
+}
+
+.function {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 280px;
+}

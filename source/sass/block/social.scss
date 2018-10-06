@@ -1,0 +1,21 @@
+.social li {
+  padding-right: 18px;
+  padding-left: 18px;
+  list-style: none;
+}
+
+.social ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 0;
+  border-bottom: 1px solid #666666;
+  border-top: 1px solid #666666;
+  margin: 0 20px;
+}

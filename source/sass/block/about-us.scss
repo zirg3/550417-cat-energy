@@ -1,0 +1,21 @@
+.about-us__invite {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #111111;
+}
+
+.about-us__address {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.about-us {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
