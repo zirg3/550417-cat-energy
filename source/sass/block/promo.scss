@@ -41,4 +41,46 @@
 .promo img {
   position: absolute;
   top: 167px;
+  left: 20px;
+}
+
+@media (min-width: 768px) {
+  .promo__container {
+    background: none;
+    text-align: left;
+    margin-left: 90px;
+  }
+
+  .promo__title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #111111;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 33px;
+  }
+
+  .promo__intro {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111111;
+    padding-bottom: 20px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .promo img {
+    position: static;
+    width: 709px;
+    height: 609px;
+  }
+
+  .promo__btn {
+    position: absolute;
+    top: 210px;
+    left: 90px;
+  }
 }

@@ -45,3 +45,61 @@
   margin-bottom: 32px;
   width: 280px;
 }
+
+
+@media (min-width: 768px) {
+  .function {
+    margin: 0 auto;
+    width: 708px;
+  }
+
+  .function h2 {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #111111;
+    padding-top: 81px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .function__wrapper {
+    margin-bottom: 30px;
+    padding-left: 51px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .function p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #222222;
+    border: none;
+    width: 372px;
+    margin-bottom: 0;
+    padding-bottom: 61px;
+  }
+
+  .function__wrapper a {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111111;
+    position: relative;
+    margin-bottom: 62px;
+  }
+
+  .function__wrapper a::after {
+    content: "";
+    background: url("../img/icon-right-arrow-long.svg");
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    top: 6px;
+    left: 132px;
+  }
+}

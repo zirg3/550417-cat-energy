@@ -20,3 +20,16 @@
   margin: 0;
   padding: 0 20px;
 }
+
+@media (min-width: 768px) {
+  .main-navi__toggle {
+    display: none;
+  }
+
+  .main-navi__list {
+    margin-top: 66px;
+    margin-bottom: 82px;
+    display: flex;
+    padding: 0;
+  }
+}
