@@ -1,10 +1,46 @@
-.function h2 {
+.function__tittle {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 37px;
   font-weight: 400;
   color: #111111;
   padding-top: 38px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 70px;
+}
+
+.function__tittle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #68b738;
+  left: 0;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.function__tittle--1::after {
+  content: "";
+  background-image: url("../img/icon-cat-slim.svg");
+  width: 35px;
+  height: 49px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 8px;
+  top: 27px;
+}
+
+.function__tittle--2::after {
+  content: "";
+  background-image: url("../img/icon-cat-pro.svg");
+  width: 67px;
+  height: 28px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: -10px;
+  top: 42px;
 }
 
 .function p {
@@ -28,6 +64,9 @@
 .function__wrapper a {
   color: #111111;
   position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .function__wrapper a::after {
@@ -36,8 +75,8 @@
   position: absolute;
   width: 24px;
   height: 11px;
-  top: 3px;
-  left: 88px;
+  top: 7px;
+  left: 100px;
 }
 
 .function {
@@ -54,11 +93,7 @@
   }
 
   .function h2 {
-    font-family: "Oswald", "Arial", sans-serif;
     font-size: 36px;
-    line-height: 37px;
-    font-weight: 400;
-    color: #111111;
     padding-top: 81px;
     margin-top: 0;
     margin-bottom: 0;
@@ -72,10 +107,8 @@
   }
 
   .function p {
-    font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
     color: #222222;
     border: none;
     width: 372px;
@@ -88,8 +121,6 @@
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
-    color: #111111;
-    position: relative;
     margin-bottom: 62px;
   }
 

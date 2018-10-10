@@ -4,6 +4,17 @@
   line-height: 24px;
   font-weight: 400;
   color: #111111;
+  position: relative;
+}
+
+.addition__title::after {
+  content: "";
+  width: 53px;
+  height: 3px;
+  background-color: #68b738;
+  position: absolute;
+  top: 50%;
+  left: 247px;
 }
 
 .addition table {

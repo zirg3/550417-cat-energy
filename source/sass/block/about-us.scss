@@ -4,6 +4,8 @@
   line-height: 20px;
   font-weight: 400;
   color: #111111;
+  text-transform: uppercase;
+  padding-right: 20px;
 }
 
 .about-us__address {
@@ -18,4 +20,13 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.about-us__wrapper {
+  display: flex;
+  padding: 32px 22px 26px 22px;
+}
+
+.about-us__wrapper p {
+  margin: 0;
 }

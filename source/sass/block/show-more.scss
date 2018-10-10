@@ -5,6 +5,8 @@
   font-weight: 400;
   color: #111111;
   margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .show-more__text {
@@ -15,4 +17,12 @@
   color: #444444;
   margin-bottom: 22px;
   margin-top: 11px;
+  text-align: center;
+}
+
+.show-more__plus {
+  background-image: url("../img/icon-plus.svg");
+  width: 30px;
+  height: 30px;
+  margin: auto;
 }
