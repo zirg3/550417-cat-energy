@@ -97,6 +97,28 @@
     padding-top: 81px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .function__tittle::before {
+    width: 200px;
+    height: 200px;
+    left: 395px;
+    top: 95px;
+  }
+
+  .function__tittle--1::after {
+    width: 140px;
+    height: 194px;
+    left: 423px;
+    top: 82px;
+  }
+
+  .function__tittle--2::after {
+    width: 268px;
+    height: 112px;
+    left: 361px;
+    top: 135px;
   }
 
   .function__wrapper {

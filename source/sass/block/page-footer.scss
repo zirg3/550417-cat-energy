@@ -11,3 +11,9 @@
   margin-top: 39px;
   margin-bottom: 31px;
 }
+
+@media (min-width: 768px) {
+  .page-footer {
+    width: 768px;
+  }
+}
