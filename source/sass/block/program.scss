@@ -56,6 +56,8 @@
   width: 280px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  align-items: baseline;
 }
 
 .field-req {
@@ -89,4 +91,35 @@
 .program__req {
   width: 280px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .program__title {
+    width: 708px;
+  }
+
+  .program__title-recomend {
+    width: 708px;
+  }
+
+  .program__first {
+    width: 708px;
+  }
+
+  .program__questionnaire li {
+    width: 708px;
+  }
+
+  .program__second-wrapper {
+    border: 1px solid #ededed;
+  }
+
+  .program__comment {
+    width: 708px;
+  }
+
+  .program__comment-text {
+    width: 631px;
+    height: 174px;
+  }
 }

@@ -27,6 +27,7 @@
   font-weight: 400;
   color: #222222;
   position: relative;
+  padding-right: 15px;
 }
 
 .line__legend {
@@ -36,6 +37,7 @@
   font-weight: 400;
   color: #111111;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .line__legend--contact::after {
@@ -75,6 +77,7 @@
   line-height: 18px;
   font-weight: 400;
   color: #444444;
+  flex-grow: 1;
 }
 
 .line__icon--mail {
@@ -85,6 +88,6 @@
 
 .line__icon--phone {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 17px;
 }

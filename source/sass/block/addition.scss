@@ -68,5 +68,44 @@
 .addition {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .addition__btn {
+    width: 633px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .addition {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .addition__title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+  }
+
+  .addition ul {
+    width: 708px;
+    margin: 0 auto;
+    margin-bottom: 69px;
+  }
+
+  .addition li {
+    border: 1px solid #ededed;
+    border-bottom: 1px;
+    padding: 28px 37px 27px 37px;
+  }
+
+  .addition li:last-child {
+    border-bottom: 1px solid #ededed;
+  }
 }

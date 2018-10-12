@@ -89,7 +89,7 @@
 @media (min-width: 768px) {
   .function {
     margin: 0 auto;
-    width: 708px;
+    width: 768px;
   }
 
   .function h2 {
@@ -154,5 +154,16 @@
     height: 11px;
     top: 6px;
     left: 132px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .function {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .function__wrapper {
+    width: 570px;
   }
 }

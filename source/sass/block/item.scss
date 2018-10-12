@@ -5,6 +5,8 @@
   font-weight: 400;
   color: #111111;
   margin-top: 20px;
+  width: 75px;
+  text-transform: uppercase;
 }
 
 .item__name {
@@ -15,6 +17,10 @@
   color: #444444;
   text-align: left;
   padding: 0;
+}
+
+.item__tab {
+  width: 140px;
 }
 
 .item__value {
@@ -34,4 +40,73 @@
 .item__feature {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .item__btn {
+    width: 249px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .item__img {
+    position: absolute;
+  }
+
+  .item__name {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+
+  .item__value {
+    font-size: 16px;
+  }
+
+  .item__img--big {
+    right: 0;
+    bottom: 315px;
+  }
+
+  .item__img--small {
+    right: 0;
+    bottom: 315px;
+  }
+
+  .item__img--small img {
+    width: 324px;
+    height: 172px;
+  }
+
+  .item__img--big img {
+    width: 324px;
+    height: 208px;
+  }
+
+  .item__tab {
+    width: 249px;
+    border-collapse: collapse;
+  }
+
+  .item__feature {
+    margin-bottom: 30px;
+  }
+
+  .item {
+    background-color: #f2f2f2;
+    padding: 180px 35px 40px;
+    position: relative;
+  }
+
+  .item__title {
+    width: 135px;
+    margin: 0 auto 28px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .item__tab tr {
+    border-bottom: 1px solid #cdcdcd;
+  }
 }

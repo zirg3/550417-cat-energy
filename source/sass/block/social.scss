@@ -19,3 +19,26 @@
   border-top: 1px solid #666666;
   margin: 0 20px;
 }
+
+@media (min-width: 768px) {
+  .social {
+    border: none;
+    margin-left: 145px;
+    margin-right: 82px;
+  }
+
+  .social__link--vkontakte img {
+    width: 22px;
+    height: 12px;
+  }
+
+  .social__link--instagram img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .social__link--facebook img {
+    width: 10px;
+    height: 19px;
+  }
+}
