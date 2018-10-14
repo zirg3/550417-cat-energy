@@ -55,3 +55,18 @@
     width: 100%;
   }
 }
+
+
+@media (min-width: 1300px) {
+  .about-us__wrapper {
+    position: absolute;
+    background-color: #ffffff;
+    width: 570px;
+    top: 68px;
+    left: 99px;
+  }
+
+  .about-us {
+    position: relative;
+  }
+}

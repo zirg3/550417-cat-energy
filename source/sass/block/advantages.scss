@@ -61,6 +61,10 @@
     width: 768px;
   }
 
+  .advantages__wrapper {
+    box-sizing: content-box;
+  }
+
   .advantages__title {
     line-height: 60px;
     margin-bottom: 0;
@@ -119,5 +123,25 @@
 
   .advantages__item--4::after {
     content: "4";
+  }
+}
+
+@media (min-width: 1300px) {
+  .advantages {
+    width: 1300px;
+  }
+
+  .advantages__list {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .advantages__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .advantages__item {
+    padding-right: 0;
   }
 }

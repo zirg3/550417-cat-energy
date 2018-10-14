@@ -67,5 +67,16 @@
     width: 277px;
     align-items: center;
     border: 1px solid #ededed;
+    box-sizing: content-box;
+  }
+}
+
+@media (min-width: 1300px) {
+  .catalog {
+    width: 1300px;
+  }
+
+  .catalog__show {
+    width: 205px;
   }
 }

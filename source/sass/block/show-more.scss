@@ -52,3 +52,10 @@
     margin-top: 28px;
   }
 }
+
+@media (min-width: 1300px) {
+  .show-more__btn {
+    width: 169px;
+    height: 40px;
+  }
+}

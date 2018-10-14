@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  box-sizing: content-box;
   width: 320px;
   margin: 0 auto;
 }

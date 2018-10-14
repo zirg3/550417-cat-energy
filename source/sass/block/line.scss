@@ -91,3 +91,21 @@
   top: 15px;
   right: 17px;
 }
+
+@media (min-width: 768px) {
+  .line__li {
+    padding-right: 78px;
+  }
+
+  .line__icon--mail {
+    position: absolute;
+    top: 20px;
+    right: 95px;
+  }
+
+  .line__icon--phone {
+    position: absolute;
+    top: 15px;
+    right: 91px;
+  }
+}
