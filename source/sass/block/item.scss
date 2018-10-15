@@ -111,9 +111,10 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .item {
     width: 245px;
+    align-items: center;
   }
 
   .item__feature {
