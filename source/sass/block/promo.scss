@@ -66,6 +66,7 @@
     text-align: left;
     padding: 0;
     margin-bottom: 33px;
+    padding-right: 50px;
   }
 
   .promo__intro {
@@ -95,11 +96,23 @@
 @media (min-width: 1300px) {
   .promo {
     width: 1300px;
+    margin-bottom: 80px;
+  }
+
+  .promo__container {
+    margin-right: auto;
   }
 
   .promo img {
+    position: absolute;
     width: 552px;
     height: 499px;
+    left: 490px;
+    top: -33px;
+  }
+
+  .promo__title {
+    width: 500px;
   }
 
   .promo::before {

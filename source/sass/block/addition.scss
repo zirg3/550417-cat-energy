@@ -90,7 +90,11 @@
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 70px;
-    padding-left: 30px;
+    padding-left: 65px;
+  }
+
+  .addition__name {
+    margin-right: auto;
   }
 
   .addition ul {
@@ -99,13 +103,26 @@
     margin-bottom: 69px;
   }
 
+  .addition__price {
+    padding-left: 52px;
+  }
+
   .addition li {
     border: 1px solid #ededed;
     border-bottom: 1px;
     padding: 28px 37px 27px 37px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
   }
 
   .addition li:last-child {
     border-bottom: 1px solid #ededed;
+  }
+}
+
+@media (min-width: 1300px) {
+  .addition {
+    width: 1300px;
   }
 }

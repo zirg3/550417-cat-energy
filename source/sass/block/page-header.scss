@@ -9,6 +9,7 @@
   box-sizing: content-box;
   width: 320px;
   margin: 0 auto;
+  position: relative;
 }
 
 .page-header__logo {
@@ -27,7 +28,6 @@
 
 .page-header a {
   text-decoration: none;
-  color: #111111;
 }
 
 .page-header li {
@@ -76,5 +76,10 @@
 @media (min-width: 1300px) {
   .page-header {
     background-color: inherit;
+    width: 1300px;
+  }
+
+  .page-header__logo {
+    margin-right: 540px;
   }
 }
