@@ -102,7 +102,7 @@
   margin: 0 16px;
 }
 
-.example__slider--before {
+.example__contrl--before {
   width: 35px;
   height: 6px;
   border-radius: 3px;
@@ -117,7 +117,7 @@
 
 @media (min-width: 768px) {
   .example {
-    width: 768px;
+    width: 708px;
     background-color: #ffffff;
   }
 
@@ -181,7 +181,7 @@
     background-color: #dcdcdc;
   }
 
-  .example__slider-toggle {
+  .example__contrl--toggle {
     position: absolute;
     left: 200px;
     top: -15px;
@@ -193,7 +193,7 @@
     border-radius: 50%;
   }
 
-  .example__slider--before {
+  .example__contrl--before {
     display: none;
   }
 

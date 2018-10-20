@@ -60,7 +60,7 @@
   align-items: baseline;
 }
 
-.field-req {
+.program__field-req {
   font-family: "Arial", sans-serif;
   line-height: 16px;
   color: #444444;
@@ -134,5 +134,33 @@
   .program__comment-text {
     width: 631px;
     height: 174px;
+  }
+
+  .program {
+    border-top: 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .program__questionnaire {
+    width: 1220px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .program__questionnaire li {
+    width: 570px;
+  }
+
+  .program__first {
+    width: 570px;
+  }
+
+  .program {
+    border-top: 0;
   }
 }

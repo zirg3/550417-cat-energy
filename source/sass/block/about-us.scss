@@ -31,10 +31,24 @@
   margin: 0;
 }
 
+.about-us img {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .about-us__wrapper {
     justify-content: space-between;
     padding: 66px 71px 60px 71px;
+
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .about-us__box {
+    background-color: #ffffff;
+  }
+
+  .about-us__box--grey {
     background-color: #f2f2f2;
   }
 

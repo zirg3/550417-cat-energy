@@ -58,7 +58,7 @@
 
 @media (min-width: 768px) {
   .advantages {
-    width: 768px;
+    width: 708px;
   }
 
   .advantages__wrapper {
@@ -129,6 +129,8 @@
 @media (min-width: 1300px) {
   .advantages {
     width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .advantages__list {

@@ -14,13 +14,15 @@
 
 @media (min-width: 768px) {
   .page-footer {
-    width: 768px;
+    width: initial;
   }
 
   .page-footer__wrapper {
     display: flex;
     align-items: center;
     padding: 42px 30px 40px 30px;
+    width: 768px;
+    margin: 0 auto;
   }
 
   .page-footer__logo {

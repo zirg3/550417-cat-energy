@@ -7,6 +7,20 @@
   margin-bottom: 0;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.show-more__title::before {
+  content: "";
+  background-image: url("../img/icon-plus.svg");
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  opacity: 0.2;
+  position: absolute;
+  top: -53px;
+  left: 124px;
 }
 
 .show-more__text {
@@ -20,29 +34,22 @@
   text-align: center;
 }
 
-.show-more__plus {
-  background-image: url("../img/icon-plus.svg");
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  opacity: 0.2;
-}
-
 @media (min-width: 768px) {
   .show-more__btn {
     margin-bottom: 10px;
   }
 
-  .show-more__plus {
-    background-image: url("../img/icon-plus.svg");
-    width: 60px;
-    height: 60px;
-    opacity: 0.2;
-  }
-
   .show-more__title {
     font-size: 20px;
     width: 145px;
+    margin-top: 148px;
+  }
+
+  .show-more__title::before{
+    width: 60px;
+    height: 60px;
+    top: -120px;
+    left: 43px;
   }
 
   .show-more__text {
