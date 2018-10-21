@@ -88,21 +88,39 @@
 
   &:focus,
   &:active {
-    border: 2px solid #444444;
+    border: 1px solid #444444;
     opacity: 1;
+  }
+
+  &:invalid {
+    border: 1px solid #ff8282;
   }
 }
 
-.line__icon--mail {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.line__icon-mail + .line__icon-mail1,
+.line__icon-phone + .line__icon-phone1 {
+  fill: #222222;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 1;
+    fill: #68b738;
+  }
 }
 
-.line__icon--phone {
+.line__icon-mail1 {
+  position: absolute;
+  top: 20px;
+  right: 17px;
+}
+
+.line__icon-phone1 {
   position: absolute;
   top: 15px;
-  right: 17px;
+  right: 13px;
 }
 
 .line__input-hidden {
@@ -169,13 +187,13 @@
     padding-right: 78px;
   }
 
-  .line__icon--mail {
+  .line__icon-mail1 {
     position: absolute;
     top: 20px;
     right: 95px;
   }
 
-  .line__icon--phone {
+  .line__icon-phone1 {
     position: absolute;
     top: 15px;
     right: 91px;

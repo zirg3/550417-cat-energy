@@ -195,8 +195,17 @@
     height: 36px;
     background-color: #68b738;
     border: 12px solid #ffffff;
-    box-shadow: 0 0 0 1px #cdcdcd;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
     border-radius: 50%;
+  }
+
+  .example__contrl--toggle:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .example__contrl--toggle:active,
+  .example__contrl--toggle:focus {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
   }
 
   .example__contrl--before {
@@ -215,6 +224,16 @@
 
   .example__value {
     border-bottom: 1px dashed rgba(17, 17, 17, 0.2);
+  }
+
+  .example__value:hover {
+    border-bottom: 1px solid #111111;
+  }
+
+  .example__value:active,
+  .example__value:focus {
+    border: none;
+    outline: none;
   }
 }
 

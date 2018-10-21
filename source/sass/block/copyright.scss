@@ -5,10 +5,40 @@
   padding: 20px 20px 28px 20px;
 }
 
+.copyright a {
+  display: flex;
+}
+
 .copyright__academy {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
   color: #444444;
+  padding-right: 135px;
+}
+
+.copyright__academy-logo {
+  fill: #666666;
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:focus {
+    opacity: 0.3;
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
+    fill: #68b738;
+  }
+}
+
+@media (min-width: 768px) {
+  .copyright__academy {
+    width: 135px;
+    padding-right: 0;
+  }
 }

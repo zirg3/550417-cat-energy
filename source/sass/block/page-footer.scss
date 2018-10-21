@@ -12,6 +12,15 @@
   margin-bottom: 31px;
 }
 
+.page-footer__logo img:hover {
+  opacity: 0.8;
+}
+
+.page-footer__logo img:active,
+.page-footer__logo img:focus {
+  opacity: 0.6;
+}
+
 @media (min-width: 768px) {
   .page-footer {
     width: initial;
