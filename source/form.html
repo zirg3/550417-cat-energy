@@ -16,7 +16,7 @@
         </picture>
       </a>
       <nav class="main-navi">
-        <button class="main-navi__toggle" type="button">Открыть меню</button>
+        <button class="main-navi__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-navi__list">
           <li class="main-navi__item">
             <a href="index.html">Главная</a>
@@ -32,8 +32,10 @@
     </header>
     <main class="page-main">
       <form class="program" method="post" action="https://echo.htmlacademy.ru">
-        <h1 class="program__title">Подбор программы</h1>
-        <p class="program__title-recomend">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <div class="program__box-tittle">
+          <h1 class="program__title">Подбор программы</h1>
+          <p class="program__title-recomend">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        </div>
         <div class="program__questionnaire">
           <fieldset class="program__first line">
             <div class="program__first-wrapper">
@@ -162,6 +164,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/scripts.js"></script>
     <script src="js/picturefill.min.js"></script>
   </body>
 </html>

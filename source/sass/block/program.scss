@@ -11,7 +11,7 @@
   font-weight: 400;
   color: #111111;
   width: 280px;
-  margin: 32px auto;
+  margin-left: 20px;
 }
 
 .program__first {
@@ -45,10 +45,15 @@
   line-height: 18px;
   font-weight: 400;
   color: #111111;
-  width: 280px;
-  margin: 0 auto;
+  width: 260px;
+  margin-left: 20px;
   margin-bottom: 38px;
   text-transform: uppercase;
+}
+
+.program__box-tittle {
+  width: 320px;
+  margin: 0 auto;
 }
 
 .program__questionnaire li {
@@ -83,6 +88,7 @@
   border: 1px solid #cdcdcd;
   opacity: 0.5;
   outline: none;
+  margin-bottom: 30px;
 
   &:hover {
     opacity: 1;
@@ -107,12 +113,22 @@
 }
 
 @media (min-width: 768px) {
+  .program__box-tittle {
+    width: 768px;
+    margin: 0 auto;
+  }
+
   .program__title {
-    width: 708px;
+    width: 768px;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 53px;
   }
 
   .program__title-recomend {
-    width: 708px;
+    width: 370px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .program__first {
@@ -142,6 +158,11 @@
 }
 
 @media (min-width: 1300px) {
+  .program__box-tittle {
+    width: 1300px;
+    margin: 0 auto;
+  }
+
   .program__questionnaire {
     width: 1220px;
     display: flex;
@@ -162,5 +183,17 @@
 
   .program {
     border-top: 0;
+  }
+
+  .program__contact {
+    margin-top: 60px;
+  }
+
+  .program__comment {
+    margin-top: 70px;
+  }
+
+  .program__extra {
+    margin-top: 70px;
   }
 }
