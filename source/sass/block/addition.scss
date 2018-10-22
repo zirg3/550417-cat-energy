@@ -1,22 +1,3 @@
-.addition__title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #111111;
-  position: relative;
-}
-
-.addition__title::after {
-  content: "";
-  width: 53px;
-  height: 3px;
-  background-color: #68b738;
-  position: absolute;
-  top: 50%;
-  left: 247px;
-}
-
 .addition table {
   margin-bottom: 14px;
 }
@@ -77,20 +58,13 @@
     width: 633px;
     height: 40px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
   }
 
   .addition {
     width: 708px;
     margin: 0 auto;
-  }
-
-  .addition__title {
-    font-size: 36px;
-    line-height: 36px;
-    margin-bottom: 70px;
-    padding-left: 40px;
   }
 
   .addition__name {
@@ -123,6 +97,36 @@
 
 @media (min-width: 1300px) {
   .addition {
-    width: 1300px;
+    width: 895px;
+    margin: 0;
+    margin-right: 80px;
+  }
+
+  .addition__btn {
+    width: 245px;
+    margin-left: 30px;
+  }
+
+  .addition li {
+    padding: 12px 0 12px 0;
+    border: none;
+    border-bottom: 1px solid #ededed;
+  }
+
+  .addition ul {
+    width: 895px;
+  }
+
+  .addition__value {
+    width: 120px;
+  }
+
+  .addition__name {
+    width: 200px;
+    margin-right: 120px;
+  }
+
+  .addition table {
+    width: 300px;
   }
 }

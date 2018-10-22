@@ -74,10 +74,16 @@
 @media (min-width: 1300px) {
   .page-header {
     background-color: inherit;
-    width: 1300px;
+    width: 1220px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .page-header__logo {
-    margin-right: 620px;
+    margin-right: 565px;
+  }
+
+  .page-header li {
+    font-size: 20px;
   }
 }

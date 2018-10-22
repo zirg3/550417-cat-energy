@@ -23,7 +23,7 @@
 
 @media (min-width: 768px) {
   .page-footer {
-    width: initial;
+    width: inherit;
   }
 
   .page-footer__wrapper {
@@ -42,6 +42,10 @@
 
 @media (min-width: 1300px) {
   .page-footer {
+    width: inherit;
+  }
+
+  .page-footer__wrapper {
     width: 1300px;
   }
 }

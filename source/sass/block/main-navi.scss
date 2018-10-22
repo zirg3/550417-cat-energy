@@ -82,7 +82,7 @@
     margin-bottom: 82px;
     display: flex;
     padding: 0;
-    width: 441px;
+    width: 445px;
   }
 
   .main-navi--closed .main-navi__item {
@@ -105,5 +105,9 @@
 
   .main-navi__white a {
     color: white;
+  }
+
+  .main-navi__list {
+    width: 485px;
   }
 }
