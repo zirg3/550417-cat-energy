@@ -135,12 +135,21 @@
     width: 708px;
   }
 
+  .program__second {
+    width: 708px;
+  }
+
+  .program__contact {
+    width: 708px;
+  }
+
   .program__questionnaire li {
     width: 708px;
   }
 
   .program__second-wrapper {
     border: 1px solid #ededed;
+    width: 630px;
   }
 
   .program__comment {
@@ -154,6 +163,26 @@
 
   .program {
     border-top: 0;
+  }
+
+  .program__extra {
+    width: 708px;
+  }
+
+  .program__field-req {
+    margin-left: 60px;
+  }
+
+  .program__req {
+    width: 708px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 70px;
+  }
+
+  .program__btn {
+    width: 280px;
+    font-family: "Oswald", "Arial", sans-serif;
   }
 }
 
