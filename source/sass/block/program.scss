@@ -193,7 +193,7 @@
   }
 
   .program__questionnaire {
-    width: 1220px;
+    width: 1300px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -202,8 +202,22 @@
     justify-content: space-between;
   }
 
+  .program__second {
+    width: 570px;
+  }
+
   .program__questionnaire li {
     width: 570px;
+  }
+
+  .program__contact {
+    width: 1300px;
+    margin-top: 60px;
+  }
+
+  .program__comment {
+    width: 1300px;
+    margin-top: 70px;
   }
 
   .program__first {
@@ -214,15 +228,25 @@
     border-top: 0;
   }
 
-  .program__contact {
-    margin-top: 60px;
-  }
-
-  .program__comment {
-    margin-top: 70px;
-  }
-
   .program__extra {
+    width: 1300px;
     margin-top: 70px;
+  }
+
+  .program__req {
+    width: 1300px;
+  }
+
+  .program__field-req {
+    font-size: 16px;
+    margin-left: 80px;
+  }
+
+  .program__btn {
+    width: 568px;
+  }
+
+  .program__comment-text {
+    width: 1220px;
   }
 }
