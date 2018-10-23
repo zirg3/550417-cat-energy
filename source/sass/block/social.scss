@@ -19,3 +19,50 @@
   border-top: 1px solid #666666;
   margin: 0 20px;
 }
+
+.social__icon {
+  fill: #666666;
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:focus {
+    opacity: 0.3;
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
+    fill: #68b738;
+  }
+
+  &:last-of-type {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .social {
+    border: none;
+    margin-left: 145px;
+    margin-right: 82px;
+  }
+
+  .social__icon {
+    &:first-of-type {
+      display: none;
+    }
+
+    &:last-of-type {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .social {
+    margin-left: 400px;
+    margin-right: 331px;
+  }
+}

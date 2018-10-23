@@ -1,11 +1,12 @@
 .promo {
-  margin-bottom: 22px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 482px;
   align-items: center;
+  width: 320px;
+  margin: 0 auto;
 }
 
 .promo__title {
@@ -41,4 +42,76 @@
 .promo img {
   position: absolute;
   top: 167px;
+  left: 20px;
+}
+
+@media (min-width: 768px) {
+  .promo {
+    width: 708px;
+  }
+
+  .promo__container {
+    background: none;
+    text-align: left;
+    margin-left: 90px;
+    margin-right: 90px;
+    min-height: 0;
+  }
+
+  .promo__title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #111111;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 33px;
+    padding-right: 50px;
+  }
+
+  .promo__intro {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111111;
+    padding-bottom: 20px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .promo img {
+    position: static;
+    width: 709px;
+    height: 609px;
+  }
+
+  .promo__btn {
+    position: absolute;
+    top: 210px;
+    left: 90px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .promo {
+    width: 1300px;
+    margin-bottom: 80px;
+  }
+
+  .promo__container {
+    margin-right: auto;
+  }
+
+  .promo img {
+    position: absolute;
+    width: 552px;
+    height: 499px;
+    left: 490px;
+    top: -33px;
+  }
+
+  .promo__title {
+    width: 500px;
+  }
 }

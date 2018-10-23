@@ -6,11 +6,15 @@
   text-transform: uppercase;
   color: #111111;
   background: #ffffff;
+  box-sizing: content-box;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .page-header__logo {
   margin-top: 11px;
-  margin-left: 7px;
+  margin-left: 20px;
 }
 
 .page-header__logo:hover {
@@ -24,11 +28,62 @@
 
 .page-header a {
   text-decoration: none;
-  color: #111111;
 }
 
 .page-header li {
   list-style: none;
   padding: 20px 0;
   border-top: 1px solid #111111;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    width: 768px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+  }
+
+  .page-header a {
+    text-decoration: none;
+  }
+
+  .page-header li {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #222222;
+    border-top: none;
+    padding: 0;
+    text-align: left;
+    margin-right: 36px;
+  }
+
+  .page-header__logo {
+    margin-top: 24px;
+    margin-left: 0;
+    width: 173px;
+    height: 58px;
+    margin-right: 96px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .page-header {
+    background-color: inherit;
+    width: 1220px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .page-header__logo {
+    margin-right: 565px;
+  }
+
+  .page-header li {
+    font-size: 20px;
+  }
 }

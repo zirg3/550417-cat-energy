@@ -5,6 +5,22 @@
   font-weight: 400;
   color: #111111;
   margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.show-more__title::before {
+  content: "";
+  background-image: url("../img/icon-plus.svg");
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  opacity: 0.2;
+  position: absolute;
+  top: -53px;
+  left: 124px;
 }
 
 .show-more__text {
@@ -15,4 +31,38 @@
   color: #444444;
   margin-bottom: 22px;
   margin-top: 11px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .show-more__btn {
+    margin-bottom: 10px;
+  }
+
+  .show-more__title {
+    font-size: 20px;
+    width: 145px;
+    margin-top: 148px;
+  }
+
+  .show-more__title::before {
+    width: 60px;
+    height: 60px;
+    top: -120px;
+    left: 43px;
+  }
+
+  .show-more__text {
+    font-size: 16px;
+    margin-bottom: 85px;
+    width: 175px;
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .show-more__btn {
+    width: 169px;
+    height: 40px;
+  }
 }

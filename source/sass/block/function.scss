@@ -1,10 +1,46 @@
-.function h2 {
+.function__tittle {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 37px;
   font-weight: 400;
   color: #111111;
   padding-top: 38px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 70px;
+}
+
+.function__tittle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #68b738;
+  left: 0;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.function__tittle--1::after {
+  content: "";
+  background-image: url("../img/icon-cat-slim.svg");
+  width: 35px;
+  height: 49px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 8px;
+  top: 27px;
+}
+
+.function__tittle--2::after {
+  content: "";
+  background-image: url("../img/icon-cat-pro.svg");
+  width: 67px;
+  height: 28px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: -10px;
+  top: 42px;
 }
 
 .function p {
@@ -28,6 +64,9 @@
 .function__wrapper a {
   color: #111111;
   position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .function__wrapper a::after {
@@ -36,12 +75,135 @@
   position: absolute;
   width: 24px;
   height: 11px;
-  top: 3px;
-  left: 88px;
+  top: 7px;
+  left: 100px;
 }
 
 .function {
   margin: 0 auto;
   margin-bottom: 32px;
   width: 280px;
+}
+
+
+@media (min-width: 768px) {
+  .function {
+    margin: 0 auto;
+    width: 708px;
+  }
+
+  .function h2 {
+    font-size: 36px;
+    padding-top: 81px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .function__tittle::before {
+    width: 200px;
+    height: 200px;
+    left: 395px;
+    top: 95px;
+  }
+
+  .function__tittle--1::after {
+    width: 140px;
+    height: 194px;
+    left: 423px;
+    top: 82px;
+  }
+
+  .function__tittle--2::after {
+    width: 268px;
+    height: 112px;
+    left: 361px;
+    top: 135px;
+  }
+
+  .function__wrapper {
+    margin-bottom: 30px;
+    padding-left: 51px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .function p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    border: none;
+    width: 372px;
+    margin-bottom: 0;
+    padding-bottom: 61px;
+  }
+
+  .function__wrapper a {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 62px;
+  }
+
+  .function__wrapper a::after {
+    content: "";
+    background: url("../img/icon-right-arrow-long.svg");
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    top: 6px;
+    left: 132px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .function {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .function__wrapper {
+    width: 570px;
+    padding-left: 52px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .function h2 {
+    padding-left: 166px;
+  }
+
+  .function p {
+    margin-top: 75px;
+    padding-bottom: 36px;
+  }
+
+  .function__wrapper--1 {
+    margin-right: 80px;
+  }
+
+  .function__tittle::before {
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 50px;
+  }
+
+  .function__tittle--1::after {
+    width: 70px;
+    height: 97px;
+    left: 15px;
+    top: 45px;
+  }
+
+  .function__tittle--2::after {
+    width: 134px;
+    height: 56px;
+    left: -18px;
+    top: 72px;
+  }
 }

@@ -4,6 +4,8 @@
   line-height: 20px;
   font-weight: 400;
   color: #111111;
+  text-transform: uppercase;
+  padding-right: 20px;
 }
 
 .about-us__address {
@@ -18,4 +20,67 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.about-us__wrapper {
+  display: flex;
+  padding: 32px 22px 26px 22px;
+}
+
+.about-us__wrapper p {
+  margin: 0;
+}
+
+.about-us img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .about-us__wrapper {
+    justify-content: space-between;
+    padding: 66px 71px 60px 71px;
+
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .about-us__box {
+    background-color: #ffffff;
+  }
+
+  .about-us__box--grey {
+    background-color: #f2f2f2;
+  }
+
+  .about-us__invite {
+    width: 154px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .about-us__address {
+    width: 155px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+  }
+
+  .about-us img {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .about-us__wrapper {
+    position: absolute;
+    background-color: #ffffff;
+    width: 570px;
+    top: 68px;
+    left: 99px;
+  }
+
+  .about-us {
+    position: relative;
+  }
 }
