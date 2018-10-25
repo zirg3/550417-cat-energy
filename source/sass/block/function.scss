@@ -44,7 +44,7 @@
   top: 37px;
 }
 
-.function p {
+.function__p {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -63,7 +63,7 @@
   padding-left: 21px;
 }
 
-.function__wrapper a {
+.function__catalog {
   color: #111111;
   position: relative;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
   line-height: 16px;
 }
 
-.function__wrapper a::after {
+.function__catalog::after {
   content: "";
   background: url("../img/icon-right-arrow-long.svg");
   position: absolute;
@@ -95,7 +95,7 @@
 
   .function h2 {
     font-size: 36px;
-    padding-top: 81px;
+    padding-top: 76px;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -104,15 +104,15 @@
   .function__tittle::before {
     width: 200px;
     height: 200px;
-    left: 395px;
-    top: 95px;
+    left: 394px;
+    top: 92px;
   }
 
   .function__tittle--1::after {
     width: 140px;
     height: 194px;
-    left: 423px;
-    top: 82px;
+    left: 424px;
+    top: 80px;
   }
 
   .function__tittle--2::after {
@@ -124,30 +124,37 @@
 
   .function__wrapper {
     margin-bottom: 30px;
-    padding-left: 51px;
+    padding-left: 52px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
+    min-height: 372px;
   }
 
-  .function p {
+  .function__p {
     font-size: 16px;
     line-height: 24px;
     color: #222222;
     border: none;
     width: 372px;
     margin-bottom: 0;
-    padding-bottom: 61px;
+    padding-bottom: 56px;
+    margin-top: 25px;
   }
 
-  .function__wrapper a {
+  .function__p--2 {
+    width: 340px;
+  }
+
+  .function__catalog {
     font-family: "Oswald", "Arial", sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
-    margin-bottom: 62px;
+    margin-bottom: 55px;
   }
 
-  .function__wrapper a::after {
+  .function__catalog::after {
     content: "";
     background: url("../img/icon-right-arrow-long.svg");
     position: absolute;
@@ -155,6 +162,10 @@
     height: 11px;
     top: 6px;
     left: 132px;
+  }
+
+  .function__catalog--2::after {
+    left: 126px;
   }
 }
 

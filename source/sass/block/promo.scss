@@ -50,12 +50,14 @@
 @media (min-width: 768px) {
   .promo {
     width: 708px;
+    margin-top: -9px;
+    min-height: 810px;
   }
 
   .promo__container {
     background: none;
     text-align: left;
-    margin-left: 90px;
+    margin-left: 88px;
     margin-right: 90px;
     min-height: 0;
   }
@@ -67,7 +69,7 @@
     color: #111111;
     text-align: left;
     padding: 0;
-    margin-bottom: 33px;
+    margin-bottom: 41px;
     padding-right: 50px;
   }
 
@@ -83,15 +85,16 @@
   }
 
   .promo img {
-    position: static;
     width: 709px;
     height: 609px;
+    top: 201px;
+    left: 0;
   }
 
   .promo__btn {
     position: absolute;
-    top: 210px;
-    left: 90px;
+    top: 229px;
+    left: 88px;
   }
 }
 
