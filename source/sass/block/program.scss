@@ -1,5 +1,4 @@
 .program {
-  border-top: 1px solid #cdcdcd;
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +11,14 @@
   color: #111111;
   width: 280px;
   margin-left: 20px;
+  margin-top: 15px;
+}
+
+.program__btn {
+  width: 280px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .program__first {
@@ -22,6 +29,7 @@
 .program__second {
   width: 320px;
   margin: 0 auto;
+  margin-top: 8px;
 }
 
 .program__contact {
@@ -54,12 +62,13 @@
 .program__box-tittle {
   width: 320px;
   margin: 0 auto;
+  margin-top: 11px;
+  border-top: 1px solid #cdcdcd;
 }
 
 .program__questionnaire li {
   list-style: none;
   width: 280px;
-  margin: 0 auto;
   position: relative;
   display: flex;
   align-items: baseline;
@@ -71,8 +80,8 @@
   color: #444444;
   justify-content: center;
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 34px;
+  margin-top: 21px;
+  margin-bottom: 31px;
 }
 
 .program__comment-text {
@@ -88,7 +97,7 @@
   border: 1px solid #cdcdcd;
   opacity: 0.5;
   outline: none;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 
   &:hover {
     opacity: 1;
@@ -101,10 +110,13 @@
   }
 }
 
+.program__second-wrapper ul {
+  padding: 26px 0 0 18px;
+}
+
 .program__second-wrapper {
-  border-bottom: 1px solid #ededed;
-  border-top: 1px solid #ededed;
-  margin-bottom: 31px;
+  border: 1px solid #ededed;
+  margin-bottom: 29px;
 }
 
 .program__req {
@@ -178,11 +190,6 @@
     display: flex;
     align-items: baseline;
     margin-bottom: 70px;
-  }
-
-  .program__btn {
-    width: 280px;
-    font-family: "Oswald", "Arial", sans-serif;
   }
 }
 

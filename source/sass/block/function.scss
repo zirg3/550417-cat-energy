@@ -4,10 +4,11 @@
   line-height: 37px;
   font-weight: 400;
   color: #111111;
-  padding-top: 38px;
+  padding-top: 30px;
   text-transform: uppercase;
   position: relative;
   padding-left: 70px;
+  margin-bottom: 25px;
 }
 
 .function__tittle::before {
@@ -17,7 +18,7 @@
   position: absolute;
   background-color: #68b738;
   left: 0;
-  top: 30px;
+  top: 25px;
   border-radius: 50%;
 }
 
@@ -29,7 +30,7 @@
   position: absolute;
   background-repeat: no-repeat;
   left: 8px;
-  top: 27px;
+  top: 22px;
 }
 
 .function__tittle--2::after {
@@ -39,8 +40,8 @@
   height: 28px;
   position: absolute;
   background-repeat: no-repeat;
-  left: -10px;
-  top: 42px;
+  left: -8px;
+  top: 37px;
 }
 
 .function p {
@@ -50,8 +51,9 @@
   font-weight: 400;
   color: #444444;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 23px;
-  margin-bottom: 20px;
+  padding-bottom: 22px;
+  margin-bottom: 17px;
+  margin-top: 27px;
   width: 240px;
 }
 
@@ -76,12 +78,11 @@
   width: 24px;
   height: 11px;
   top: 7px;
-  left: 100px;
+  left: 96px;
 }
 
 .function {
   margin: 0 auto;
-  margin-bottom: 32px;
   width: 280px;
 }
 

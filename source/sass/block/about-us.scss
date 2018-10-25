@@ -5,7 +5,7 @@
   font-weight: 400;
   color: #111111;
   text-transform: uppercase;
-  padding-right: 20px;
+  padding-right: 24px;
 }
 
 .about-us__address {
@@ -24,7 +24,7 @@
 
 .about-us__wrapper {
   display: flex;
-  padding: 32px 22px 26px 22px;
+  padding: 30px 20px 26px 19px;
 }
 
 .about-us__wrapper p {
@@ -33,6 +33,10 @@
 
 .about-us img {
   display: block;
+}
+
+.about-us__box--grey {
+  background-color: #f2f2f2;
 }
 
 @media (min-width: 768px) {
