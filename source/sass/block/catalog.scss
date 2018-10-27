@@ -7,9 +7,8 @@
   padding-left: 20px;
   padding-top: 16px;
   padding-bottom: 27px;
-  border-top: 1px solid #ededed;
   margin: 0;
-  margin-top: 11px;
+  margin-top: 3px;
 }
 
 .catalog {
@@ -46,7 +45,7 @@
   .catalog__title {
     font-size: 60px;
     border: none;
-    margin-bottom: 156px;
+    margin-bottom: 56px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -58,7 +57,7 @@
 
   .catalog__item {
     margin-right: 60px;
-    margin-bottom: 140px;
+    margin-bottom: 58px;
   }
 
   .catalog__item:nth-of-type(2n) {
@@ -66,11 +65,12 @@
   }
 
   .catalog__show {
-    height: 386px;
-    width: 277px;
+    height: 380px;
+    width: 282px;
     align-items: center;
     border: 1px solid #ededed;
     box-sizing: content-box;
+    margin-top: 82px;
   }
 }
 

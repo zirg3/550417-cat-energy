@@ -11,7 +11,7 @@
   color: #111111;
   width: 280px;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 .program__btn {
@@ -24,27 +24,32 @@
 .program__first {
   width: 280px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .program__second {
   width: 320px;
   margin: 0 auto;
   margin-top: 8px;
+  padding: 0;
 }
 
 .program__contact {
   width: 280px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .program__comment {
   width: 280px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .program__extra {
   width: 280px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .program__title-recomend {
@@ -62,8 +67,8 @@
 .program__box-tittle {
   width: 320px;
   margin: 0 auto;
-  margin-top: 11px;
-  border-top: 1px solid #cdcdcd;
+  margin-top: 2px;
+  border-top: 1px solid #ededed;
 }
 
 .program__questionnaire li {
@@ -128,6 +133,9 @@
   .program__box-tittle {
     width: 768px;
     margin: 0 auto;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .program__title {
@@ -135,42 +143,63 @@
     font-size: 60px;
     margin: 0;
     margin-bottom: 53px;
+    margin-top: 19px;
   }
 
   .program__title-recomend {
     width: 370px;
     font-size: 20px;
     line-height: 30px;
+    margin-left: 40px;
+    margin-bottom: 68px;
   }
 
   .program__first {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
   }
 
   .program__second {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
+    margin-top: 53px;
   }
 
   .program__contact {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
   }
 
   .program__questionnaire li {
     width: 708px;
   }
 
+  .program__second-wrapper ul {
+    padding: 29px 0 2px 28px;
+  }
+
   .program__second-wrapper {
     border: 1px solid #ededed;
     width: 630px;
+    margin-bottom: 75px;
   }
 
   .program__comment {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
   }
 
   .program__comment-text {
     width: 631px;
     height: 174px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 9px 15px 0 18px;
+    margin-bottom: 62px;
   }
 
   .program {
@@ -178,18 +207,30 @@
   }
 
   .program__extra {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
   }
 
   .program__field-req {
     margin-left: 60px;
+    font-size: 16px;
+    margin-bottom: 22px;
   }
 
   .program__req {
-    width: 708px;
+    width: 768px;
+    padding-left: 70px;
+    padding-right: 30px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 70px;
+  }
+
+  .program__btn {
+    font-size: 20px;
+    line-height: 20px;
+    width: 283px;
   }
 }
 

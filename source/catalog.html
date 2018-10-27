@@ -256,7 +256,7 @@
             <table>
               <tr class="addition__row">
                 <th class="addition__value">1 упаковка (100 г)</th>
-                <td class="addition__price">100 Р.</td>
+                <td class="addition__price">200 Р.</td>
               </tr>
             </table>
             <a class="addition__btn button" href="#">Заказать</a>
@@ -306,7 +306,7 @@
           c0,0,0,0,0,0s0,0,0,0H27.7c0,0,0,0,0,0s0,0,0,0H5.2c0,0,0,0,0,0s0,0,0,0h-2c-0.4,0-0.7-0.3-0.7-0.7v-9.4c0-0.4,0.3-0.7,0.7-0.7h49.2
           c0.4,0,0.7,0.3,0.7,0.7V24.7z"/>
         </svg></span>
-        <p class="bonus__text">Закажите все </br> и получите чехол для кота в подарок!</p>
+        <p class="bonus__text">Закажите все <br> и получите чехол для кота в подарок!</p>
       </section>
       </div>
     </main>
@@ -315,18 +315,20 @@
         <div class="about-us__box about-us__box--grey">
           <div class="about-us__wrapper">
             <div class="about-us__invite">
-              <p>Приглашаем </br> к сотрудничеству дилеров!</p>
+              <p>Приглашаем <br> к сотрудничеству дилеров!</p>
             </div>
             <div class="about-us__address">
-              <p>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+              <p>ул. Большая Конюшенная, д. 19/8 <span class="about-us__span">Санкт-Петербург</span></p>
             </div>
           </div>
         </div>
-        <picture>
-          <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png">
-          <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png">
-          <img src="img/bg-map-mobile@1x.png" width="320" height="363" alt="карта">
-        </picture>
+        <div class="about-us__map">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png">
+            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png">
+            <img src="img/bg-map-mobile@1x.png" width="320" height="363" alt="карта">
+          </picture>
+        </div>
       </section>
       <div class="page-footer__wrapper">
         <a class="page-footer__logo">
@@ -361,10 +363,12 @@
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
-          <p class="copyright__academy">HTML Academy</p>
-          <svg class="copyright__academy-logo" width="27" height="34">
-            <use xlink:href="img/sprite.svg#academy-logo"></use>
-          </svg>
+          <a href="https://htmlacademy.ru/intensive/adaptive">
+            <p class="copyright__academy">HTML Academy</p>
+            <svg class="copyright__academy-logo" width="27" height="34">
+              <use xlink:href="img/sprite.svg#academy-logo"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

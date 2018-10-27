@@ -126,6 +126,11 @@
     background-image: linear-gradient(#ffffff 57%, #f2f2f2 57%, #f2f2f2);
   }
 
+  .example__span {
+    margin-top: 8px;
+    display: block;
+  }
+
   .example__box-2 {
     width: 708px;
     margin: 0 auto;
@@ -185,7 +190,7 @@
 
   .example__cost {
     position: absolute;
-    top: -30px;
+    top: -24px;
     right: 0;
     width: 174px;
     text-align: right;

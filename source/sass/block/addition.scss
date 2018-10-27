@@ -64,6 +64,20 @@
     line-height: 20px;
   }
 
+  .addition__value {
+    font-size: 16px;
+    line-height: 16px;
+    padding-right: 34px;
+    display: block;
+  }
+
+  .addition__price {
+    font-size: 16px;
+    line-height: 16px;
+    width: 60px;
+    padding: 0;
+  }
+
   .addition {
     width: 708px;
     margin: 0 auto;
@@ -71,6 +85,10 @@
 
   .addition__name {
     margin-right: auto;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
   }
 
   .addition ul {
@@ -79,14 +97,10 @@
     margin-bottom: 69px;
   }
 
-  .addition__price {
-    padding-left: 52px;
-  }
-
   .addition li {
     border: 1px solid #ededed;
     border-bottom: 1px;
-    padding: 28px 37px 27px 37px;
+    padding: 26px 37px 26px 37px;
     display: flex;
     flex-flow: wrap;
     align-items: baseline;
