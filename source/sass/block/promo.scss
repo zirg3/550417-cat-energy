@@ -50,7 +50,7 @@
 @media (min-width: 768px) {
   .promo {
     width: 708px;
-    margin-top: -9px;
+    margin-top: 19px;
     min-height: 810px;
   }
 
@@ -102,10 +102,13 @@
   .promo {
     width: 1300px;
     margin-bottom: 80px;
+    min-height: 526px;
   }
 
   .promo__container {
     margin-right: auto;
+    margin-left: 120px;
+    margin-top: 52px;
   }
 
   .promo img {
@@ -113,10 +116,15 @@
     width: 552px;
     height: 499px;
     left: 490px;
-    top: -33px;
+    top: -28px;
   }
 
   .promo__title {
     width: 500px;
+  }
+
+  .promo__btn {
+    top: 286px;
+    left: 120px;
   }
 }

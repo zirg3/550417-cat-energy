@@ -7,7 +7,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #cdcdcd;
   padding-bottom: 16px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .addition li:first-child {
-  border-top: 1px solid #ededed;
+  border-top: 1px solid #cdcdcd;
 }
 
 .addition__name {
@@ -98,8 +98,8 @@
   }
 
   .addition li {
-    border: 1px solid #ededed;
-    border-bottom: 1px;
+    border: 1px solid #cdcdcd;
+    border-bottom: none;
     padding: 26px 37px 26px 37px;
     display: flex;
     flex-flow: wrap;
@@ -107,7 +107,7 @@
   }
 
   .addition li:last-child {
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #cdcdcd;
   }
 }
 
@@ -120,29 +120,36 @@
 
   .addition__btn {
     width: 245px;
-    margin-left: 30px;
+    margin-left: 38px;
   }
 
   .addition li {
-    padding: 12px 0 12px 0;
+    padding: 16px 0 7px 0;
     border: none;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #cdcdcd;
   }
 
   .addition ul {
     width: 895px;
+    margin-bottom: 89px;
   }
 
   .addition__value {
-    width: 120px;
+    width: 170px;
   }
 
   .addition__name {
     width: 200px;
-    margin-right: 120px;
+    margin-right: 124px;
+    margin-bottom: 0;
   }
 
   .addition table {
-    width: 300px;
+    width: 288px;
+  }
+
+  .addition__price {
+    width: 44px;
+    text-align: left;
   }
 }

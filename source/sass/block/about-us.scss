@@ -94,11 +94,20 @@
     position: absolute;
     background-color: #ffffff;
     width: 570px;
-    top: 68px;
-    left: 99px;
+    top: 91px;
+    left: 110px;
+    padding: 64px 90px 58px 76px;
+  }
+
+  .about-us__address {
+    text-align: left;
   }
 
   .about-us {
     position: relative;
+  }
+
+  .about-us__map {
+    overflow: inherit;
   }
 }

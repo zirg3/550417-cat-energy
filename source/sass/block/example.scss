@@ -267,11 +267,12 @@
 @media (min-width: 1300px) {
   .example {
     width: inherit;
-    background-image: linear-gradient(#ffffff 38%, #f2f2f2 38%, #f2f2f2);
+    background-image: linear-gradient(#ffffff 25%, #f2f2f2 25%, #f2f2f2);
+    border: none;
   }
 
   .example__title {
-    margin-top: 90px;
+    margin-top: 7px;
     margin-bottom: 142px;
   }
 
@@ -281,8 +282,14 @@
 
   .example__cost {
     position: initial;
-    width: 294px;
-    margin-top: 78px;
+    width: 328px;
+    margin-top: 59px;
+  }
+
+  .example__span {
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 59px;
   }
 
   .example__story {
@@ -294,10 +301,14 @@
     display: flex;
     width: 1300px;
     margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 624px;
   }
 
-  .example__box {
-    overflow: hidden;
+  .example__box img {
+    margin-top: -31px;
+    margin-left: -69px;
   }
 
   .example__val {

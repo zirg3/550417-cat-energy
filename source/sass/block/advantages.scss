@@ -153,9 +153,15 @@
   .advantages__title {
     font-size: 60px;
     line-height: 60px;
+    margin-top: 73px;
   }
 
   .advantages__item {
     padding-right: 0;
+  }
+
+  .advantages__item:nth-child(3),
+  .advantages__item:nth-child(4) {
+    margin-top: 72px;
   }
 }

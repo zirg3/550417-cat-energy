@@ -292,14 +292,60 @@
   .line__input {
     margin-bottom: 20px;
   }
+
+  .line__legend--contact::after,
+  .line__legend--comment::after,
+  .line__legend--extra::after {
+    content: none;
+  }
 }
 
 @media (min-width: 1300px) {
   .line__legend {
-    margin-bottom: 84px;
+    margin-bottom: 76px;
   }
 
   .line__ul-contact {
     display: flex;
+  }
+
+  .line__ul-contact li:first-child {
+    margin-right: 79px;
+  }
+
+  .line__ul-contact li {
+    width: 570px;
+  }
+
+  .line__ul-info li {
+    width: 570px;
+  }
+
+  .line__decorate {
+    padding: 8px 10px 12px 23px;
+  }
+
+  .line__icon-mail1 {
+    top: 19px;
+    right: 20px;
+  }
+
+  .line__icon-phone1 {
+    top: 16px;
+    right: 18px;
+  }
+
+  .line__ul-add {
+    margin-top: -13px;
+    margin-bottom: 18px;
+  }
+
+  .line__ul-add li {
+    margin-right: 125px;
+    width: 200px;
+  }
+
+  .line__ul-add li:nth-of-type(2n):not(:last-child) {
+    margin-right: 125px;
   }
 }

@@ -41,7 +41,7 @@
   position: absolute;
   background-repeat: no-repeat;
   left: -8px;
-  top: 37px;
+  top: 34px;
 }
 
 .function__p {
@@ -186,12 +186,12 @@
   }
 
   .function h2 {
-    padding-left: 166px;
+    padding-left: 162px;
   }
 
   .function p {
     margin-top: 75px;
-    padding-bottom: 36px;
+    padding-bottom: 28px;
   }
 
   .function__wrapper--1 {
@@ -202,20 +202,28 @@
     width: 100px;
     height: 100px;
     left: 0;
-    top: 50px;
+    top: 47px;
   }
 
   .function__tittle--1::after {
     width: 70px;
     height: 97px;
-    left: 15px;
-    top: 45px;
+    left: 14px;
+    top: 41px;
   }
 
   .function__tittle--2::after {
     width: 134px;
     height: 56px;
     left: -18px;
-    top: 72px;
+    top: 69px;
+  }
+
+  .function__p--1 {
+    width: 470px;
+  }
+
+  .function__p--2 {
+    width: 470px;
   }
 }
