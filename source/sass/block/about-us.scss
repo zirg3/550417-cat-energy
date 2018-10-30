@@ -26,16 +26,23 @@
 .about-us__wrapper {
   display: flex;
   padding: 30px 20px 26px 19px;
+  z-index: 12;
 }
 
 .about-us__wrapper p {
   margin: 0;
 }
 
-.about-us img {
+.about-us__map-img {
   display: block;
   margin-top: -39px;
   height: auto;
+}
+
+.about-us__map-pin {
+  position: absolute;
+  top: 93px;
+  left: 97px;
 }
 
 .about-us__box--grey {
@@ -44,6 +51,7 @@
 
 .about-us__map {
   overflow: hidden;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -81,10 +89,15 @@
     text-align: right;
   }
 
-  .about-us img {
+  .about-us__map-img {
     width: 100%;
     height: auto;
     margin-top: -4px;
+  }
+
+  .about-us__map-pin {
+    top: 148px;
+    left: 336px;
   }
 }
 
