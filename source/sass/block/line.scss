@@ -307,6 +307,13 @@
 
   .line__ul-contact {
     display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .line__text {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .line__ul-contact li:first-child {
@@ -338,6 +345,8 @@
   .line__ul-add {
     margin-top: -13px;
     margin-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .line__ul-add li {

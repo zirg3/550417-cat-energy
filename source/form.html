@@ -37,42 +37,44 @@
           <p class="program__title-recomend">Заполните анкету и мы подберем программу питания для вашего кота</p>
         </div>
         <div class="program__questionnaire">
-          <fieldset class="program__first line">
-            <div class="program__first-wrapper">
-              <ul class="line__ul-info">
-                <li class="line__li">
-                  <label class="line__label" for="cat-name">Имя:*</label>
-                  <input class="line__input line__decorate" type="text" name="name" id="cat-name" placeholder="Барсик">
-                </li>
-                <li class="line__li">
-                  <label class="line__label" for="cat-weight">Вес (кг):*</label>
-                  <input class="line__input line__decorate" type="number" name="weight" id="cat-weight" placeholder="7">
-                </li>
-                <li class="line__li">
-                  <label class="line__label" for="cat-age">Возраст (лет):</label>
-                  <input class="line__input line__decorate" type="number" name="age" id="cat-age" placeholder="7">
-                </li>
-              </ul>
-            </div>
-          </fieldset>
-          <fieldset class="program__second line">
-            <div class="program__second-wrapper">
-              <ul class="line__ul-second">
-                <li class="line__li">
-                  <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-slim" checked>
-                  <label class="line__label line__label--res" for="cat-slim">Похудение</label>
-                </li>
-                <li class="line__li">
-                  <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-pro">
-                  <label class="line__label line__label--res" for="cat-pro">Набор массы</label>
-                </li>
-                <li class="line__li">
-                  <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-advice">
-                  <label class="line__label line__label--res" for="cat-advice">Не знаю (Нужен ваш совет)</label>
-                </li>
-              </ul>
-            </div>
-          </fieldset>
+          <div class="program__wrap">
+            <fieldset class="program__first line">
+              <div class="program__first-wrapper">
+                <ul class="line__ul-info">
+                  <li class="line__li">
+                    <label class="line__label" for="cat-name">Имя:*</label>
+                    <input class="line__input line__decorate" type="text" name="name" id="cat-name" placeholder="Барсик">
+                  </li>
+                  <li class="line__li">
+                    <label class="line__label" for="cat-weight">Вес (кг):*</label>
+                    <input class="line__input line__decorate" type="number" name="weight" id="cat-weight" placeholder="7">
+                  </li>
+                  <li class="line__li">
+                    <label class="line__label" for="cat-age">Возраст (лет):</label>
+                    <input class="line__input line__decorate" type="number" name="age" id="cat-age" placeholder="7">
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+            <fieldset class="program__second line">
+              <div class="program__second-wrapper">
+                <ul class="line__ul-second">
+                  <li class="line__li">
+                    <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-slim" checked>
+                    <label class="line__label line__label--res" for="cat-slim">Похудение</label>
+                  </li>
+                  <li class="line__li">
+                    <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-pro">
+                    <label class="line__label line__label--res" for="cat-pro">Набор массы</label>
+                  </li>
+                  <li class="line__li">
+                    <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-advice">
+                    <label class="line__label line__label--res" for="cat-advice">Не знаю (Нужен ваш совет)</label>
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+          </div>
           <div class="program__green-line">
             <fieldset class="program__contact line">
               <legend class="line__legend line__legend--contact"><span class="line__span">Контактные данные (владельца кота)</span></legend>

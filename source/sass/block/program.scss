@@ -235,6 +235,7 @@
 
   .program__green-line {
     position: relative;
+    width: 100%;
   }
 
   .program__green-line::before {
@@ -272,7 +273,7 @@
   }
 
   .program__questionnaire {
-    width: 1300px;
+    width: 100%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -295,14 +296,12 @@
 
   .program__contact {
     width: 1300px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0;
   }
 
   .program__comment {
     width: 1300px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0;
   }
 
   .program__first {
@@ -318,8 +317,7 @@
 
   .program__extra {
     width: 1300px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0;
   }
 
   .program__req {
@@ -345,5 +343,15 @@
   .program__second-wrapper {
     width: 570px;
     margin-bottom: 0;
+  }
+
+  .program__wrap {
+    width: 1300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
