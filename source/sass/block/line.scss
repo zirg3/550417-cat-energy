@@ -215,10 +215,13 @@
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 75px;
+    padding-left: 30px;
   }
 
   .line__ul-contact {
     margin-bottom: 47px;
+    padding-left: 70px;
+    padding-right: 40px;
   }
 
   .line__ul-contact li {
@@ -235,6 +238,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 40px;
   }
 
   .line__ul-add li:nth-of-type(2n) {
@@ -297,6 +302,11 @@
   .line__legend--comment::after,
   .line__legend--extra::after {
     content: none;
+  }
+
+  .line__text {
+    padding-left: 70px;
+    padding-right: 40px;
   }
 }
 
