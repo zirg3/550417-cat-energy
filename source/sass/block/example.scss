@@ -221,7 +221,7 @@
   }
 
   .example__toggle {
-    margin-top: 19px;
+    margin-top: 15px;
   }
 
   .example__contrl--toggle:hover {
@@ -251,7 +251,9 @@
   .example__value {
     border-bottom: 1px dotted rgba(17, 17, 17, 0.2);
     font-size: 20px;
-    margin-bottom: 66px;
+    margin-bottom: 68px;
+    padding: 0;
+    padding-bottom: 5px;
   }
 
   .example__value:hover {
@@ -262,6 +264,14 @@
   .example__value:focus {
     border: none;
     outline: none;
+  }
+
+  .example__value--before {
+    margin-right: 10px;
+  }
+
+  .example__value--after {
+    margin-left: 10px;
   }
 }
 

@@ -29,6 +29,12 @@
   top: 23%;
 }
 
+@media (min-resolution: 192dpi), (min-resolution: 2) {
+  .bonus {
+    background-image: url("../img/gift-photo-mobile@2x.jpg");
+  }
+}
+
 @media (min-width: 768px) {
   .bonus {
     width: 708px;
@@ -50,6 +56,12 @@
     padding: 72px 120px 70px 423px;
     margin: 0;
   }
+
+  @media (min-resolution: 192dpi), (min-resolution: 2) {
+    .bonus {
+      background-image: url("../img/gift-photo-tablet@2x.jpg");
+    }
+  }
 }
 
 @media (min-width: 1300px) {
@@ -68,5 +80,11 @@
     padding: 0;
     padding-top: 185px;
     text-align: center;
+  }
+
+  @media (min-resolution: 192dpi), (min-resolution: 2) {
+    .bonus {
+      background-image: url("../img/gift-photo-desktop@2x.jpg");
+    }
   }
 }
