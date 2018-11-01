@@ -5,8 +5,8 @@
   font-weight: 400;
   color: #111111;
   text-align: left;
-  margin-left: 20px;
-  padding-top: 33px;
+  padding-top: 17px;
+  margin-bottom: 23px;
 }
 
 .example__wrapper {
@@ -16,7 +16,7 @@
 .example {
   width: 320px;
   margin: 0 auto;
-  margin-top: 42px;
+  margin-top: 46px;
   background-color: #f2f2f2;
 }
 
@@ -26,6 +26,7 @@
   line-height: 18px;
   color: #444444;
   width: 266px;
+  margin-bottom: 25px;
 }
 
 .example__effect {
@@ -70,7 +71,7 @@
   color: #111111;
   text-align: center;
   margin-top: 35px;
-  margin-bottom: 44px;
+  margin-bottom: 34px;
   text-transform: uppercase;
 }
 
@@ -99,7 +100,8 @@
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  margin: 0 16px;
+  margin: 3px 12px;
+  padding-left: 5px;
 }
 
 .example__contrl--before {
@@ -112,14 +114,21 @@
 .example__toggle {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 26px;
 }
 
 @media (min-width: 768px) {
   .example {
+    margin-top: 56px;
+    border-top: 1px solid #f2f2f2;
     width: inherit;
     background-color: #ffffff;
-    background-image: linear-gradient(#ffffff 56%, #f2f2f2 56%, #f2f2f2);
+    background-image: linear-gradient(#ffffff 57%, #f2f2f2 57%, #f2f2f2);
+  }
+
+  .example__span {
+    margin-top: 8px;
+    display: block;
   }
 
   .example__box-2 {
@@ -129,35 +138,46 @@
 
   .example__val {
     background-color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
   }
 
   .example__title {
     font-size: 60px;
     margin-left: 0;
+    margin-top: 26px;
+    margin-bottom: 65px;
+  }
+
+  .example__stats {
+    font-size: 30px;
+    line-height: 37px;
+    padding-top: 14px;
   }
 
   .example__story {
     font-size: 16px;
     line-height: 24px;
     width: 676px;
-    margin-bottom: 56px;
+    margin-bottom: 52px;
   }
 
   .example__effect {
     width: 162px;
     margin-right: 42px;
+    min-height: 72px;
   }
 
   .example__val--1 {
     width: auto;
-    top: 37px;
-    left: 29px;
+    top: 48px;
+    left: 21px;
   }
 
   .example__val--2 {
-    width: auto;
-    top: 37px;
-    left: 17px;
+    width: 150px;
+    top: 48px;
+    left: 5px;
   }
 
   .example__wrapper {
@@ -170,7 +190,7 @@
 
   .example__cost {
     position: absolute;
-    top: -30px;
+    top: -24px;
     right: 0;
     width: 174px;
     text-align: right;
@@ -185,18 +205,23 @@
     height: 6px;
     border-radius: 2.5px;
     background-color: #dcdcdc;
+    margin-top: 8px;
   }
 
   .example__contrl--toggle {
     position: absolute;
-    left: 200px;
-    top: -15px;
-    width: 36px;
-    height: 36px;
+    left: 198px;
+    top: -14px;
+    width: 33px;
+    height: 33px;
     background-color: #68b738;
     border: 12px solid #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
     border-radius: 50%;
+  }
+
+  .example__toggle {
+    margin-top: 19px;
   }
 
   .example__contrl--toggle:hover {
@@ -219,11 +244,14 @@
   .example__box img {
     width: 690px;
     height: 517px;
-    margin-top: 72px;
+    margin-top: 87px;
+    margin-left: 16px;
   }
 
   .example__value {
-    border-bottom: 1px dashed rgba(17, 17, 17, 0.2);
+    border-bottom: 1px dotted rgba(17, 17, 17, 0.2);
+    font-size: 20px;
+    margin-bottom: 66px;
   }
 
   .example__value:hover {
@@ -240,11 +268,12 @@
 @media (min-width: 1300px) {
   .example {
     width: inherit;
-    background-image: linear-gradient(#ffffff 38%, #f2f2f2 38%, #f2f2f2);
+    background-image: linear-gradient(#ffffff 25%, #f2f2f2 25%, #f2f2f2);
+    border: none;
   }
 
   .example__title {
-    margin-top: 90px;
+    margin-top: 7px;
     margin-bottom: 142px;
   }
 
@@ -254,8 +283,14 @@
 
   .example__cost {
     position: initial;
-    width: 294px;
-    margin-top: 78px;
+    width: 328px;
+    margin-top: 59px;
+  }
+
+  .example__span {
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 59px;
   }
 
   .example__story {
@@ -267,9 +302,40 @@
     display: flex;
     width: 1300px;
     margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 624px;
+  }
+
+  .example__box img {
+    margin-top: -31px;
+    margin-left: -69px;
   }
 
   .example__val {
     background-color: #f2f2f2;
+  }
+
+  .example__slider {
+    margin-top: 8px;
+  }
+
+  .example__toggle {
+    margin-top: 34px;
+    margin-right: 26px;
+  }
+
+  .example__value {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 7px;
+  }
+
+  .example__value--before {
+    margin-right: 10px;
+  }
+
+  .example__value--after {
+    margin-left: 10px;
   }
 }

@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 20px 28px 20px;
+  padding: 16px 20px 28px 20px;
 }
 
 .copyright a {
   display: flex;
+  align-items: center;
 }
 
 .copyright__academy {
@@ -15,7 +16,20 @@
   line-height: 16px;
   font-weight: 400;
   color: #444444;
-  padding-right: 135px;
+  padding-right: 138px;
+}
+
+.copyright__academy:active {
+  opacity: 0.3;
+}
+
+.copyright__academy:hover + .copyright__academy-logo {
+  fill: #68b738;
+}
+
+.copyright__academy:active + .copyright__academy-logo {
+  opacity: 0.3;
+  fill: #68b738;
 }
 
 .copyright__academy-logo {
@@ -38,7 +52,11 @@
 
 @media (min-width: 768px) {
   .copyright__academy {
-    width: 135px;
+    width: 137px;
     padding-right: 0;
+  }
+
+  .copyright {
+    padding: 22px 15px 13px 4px;
   }
 }

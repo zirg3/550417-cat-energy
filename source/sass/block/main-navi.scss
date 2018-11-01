@@ -18,7 +18,7 @@
 
 .main-navi__list {
   margin: 0;
-  padding: 0 20px;
+  margin-top: 12px;
 }
 
 .main-navi__item a {
@@ -29,8 +29,8 @@
   position: absolute;
   width: 24px;
   height: 18px;
-  top: 24px;
-  right: 22px;
+  top: 21px;
+  right: 20px;
   cursor: pointer;
   border: 0;
   background: none;
@@ -78,8 +78,8 @@
 
 @media (min-width: 768px) {
   .main-navi__list {
-    margin-top: 66px;
-    margin-bottom: 82px;
+    margin-top: 42px;
+    margin-bottom: 54px;
     display: flex;
     padding: 0;
     width: 445px;

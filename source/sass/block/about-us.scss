@@ -5,7 +5,7 @@
   font-weight: 400;
   color: #111111;
   text-transform: uppercase;
-  padding-right: 20px;
+  width: 143px;
 }
 
 .about-us__address {
@@ -14,6 +14,7 @@
   line-height: 20px;
   font-weight: 400;
   color: #444444;
+  width: 140px;
 }
 
 .about-us {
@@ -24,24 +25,51 @@
 
 .about-us__wrapper {
   display: flex;
-  padding: 32px 22px 26px 22px;
+  padding: 30px 20px 26px 19px;
+  z-index: 12;
 }
 
 .about-us__wrapper p {
   margin: 0;
 }
 
-.about-us img {
+.about-us__map-img {
   display: block;
+  margin-top: -39px;
+  height: 400px;
+}
+
+.about-us__map-pin {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.about-us__box--grey {
+  background-color: #f2f2f2;
+}
+
+.about-us__map {
+  overflow: hidden;
+  position: relative;
 }
 
 @media (min-width: 768px) {
   .about-us__wrapper {
     justify-content: space-between;
-    padding: 66px 71px 60px 71px;
+    padding: 65px 71px 58px 71px;
 
     width: 768px;
     margin: 0 auto;
+  }
+
+  .about-us__span {
+    margin-top: 18px;
+    display: block;
   }
 
   .about-us__box {
@@ -65,8 +93,14 @@
     text-align: right;
   }
 
-  .about-us img {
+  .about-us__map-img {
     width: 100%;
+    height: 400px;
+    margin-top: -4px;
+  }
+
+  .about-us__map-pin {
+    top: 148px;
   }
 }
 
@@ -76,11 +110,20 @@
     position: absolute;
     background-color: #ffffff;
     width: 570px;
-    top: 68px;
-    left: 99px;
+    top: 91px;
+    left: 110px;
+    padding: 64px 90px 58px 76px;
+  }
+
+  .about-us__address {
+    text-align: left;
   }
 
   .about-us {
     position: relative;
+  }
+
+  .about-us__map {
+    overflow: inherit;
   }
 }

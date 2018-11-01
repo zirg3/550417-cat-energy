@@ -1,10 +1,5 @@
 .line {
   border: none;
-  padding: 0;
-}
-
-.line ul {
-  padding: 0;
 }
 
 .line__li {
@@ -37,13 +32,14 @@
   font-weight: 400;
   color: #111111;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
+  padding: 0;
 }
 
 .line__legend--contact::after {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: -20px;
   background-color: #68b738;
   height: 3px;
@@ -53,8 +49,8 @@
 .line__legend--comment::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: -180px;
+  top: 12px;
+  right: -181px;
   width: 158px;
   height: 3px;
   background-color: #68b738;
@@ -63,7 +59,7 @@
 .line__legend--extra::after {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: -160px;
   width: 136px;
   height: 3px;
@@ -71,7 +67,7 @@
 }
 
 .line__decorate {
-  padding: 14px;
+  padding: 13px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
@@ -81,6 +77,7 @@
   border: 1px solid #cdcdcd;
   opacity: 0.5;
   outline: none;
+  text-transform: uppercase;
 
   &:hover {
     opacity: 1;
@@ -123,13 +120,13 @@
 
 .line__icon-mail1 {
   position: absolute;
-  top: 20px;
-  right: 17px;
+  top: 17px;
+  right: 16px;
 }
 
 .line__icon-phone1 {
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: 13px;
 }
 
@@ -145,8 +142,8 @@
 
 .line__label--res {
   position: relative;
-  margin-bottom: 26px;
-  padding-left: 50px;
+  margin-bottom: 25px;
+  padding-left: 47px;
 }
 
 .line__label--res::before {
@@ -171,8 +168,8 @@
 
 .line__label--check {
   position: relative;
-  margin-bottom: 26px;
-  padding-left: 50px;
+  margin-bottom: 24px;
+  padding-left: 47px;
 }
 
 .line__label--check::before {
@@ -192,17 +189,39 @@
   background-position: center;
 }
 
+.line__ul-contact {
+  margin-bottom: 13px;
+}
+
+.line__ul-add {
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
 @media (min-width: 768px) {
   .line__icon-mail1 {
     position: absolute;
-    top: 17px;
-    right: 25px;
+    top: 21px;
+    right: 18px;
   }
 
   .line__icon-phone1 {
     position: absolute;
-    top: 15px;
-    right: 21px;
+    top: 18px;
+    right: 15px;
+  }
+
+  .line__legend {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 75px;
+    padding-left: 30px;
+  }
+
+  .line__ul-contact {
+    margin-bottom: 47px;
+    padding-left: 70px;
+    padding-right: 40px;
   }
 
   .line__ul-contact li {
@@ -218,21 +237,134 @@
   .line__ul-add {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+
+  .line__ul-add li:nth-of-type(2n) {
+    margin-right: 0;
   }
 
   .line__ul-add li {
     width: 280px;
     margin: 0;
+    margin-bottom: 29px;
+    margin-right: 64px;
+  }
+
+  .line__label {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .line__label--check {
+    padding-right: 0;
+    padding-left: 58px;
+  }
+
+  .line__label--res::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .line__legend--extra {
+    margin-bottom: 55px;
+  }
+
+  .line__label--res {
+    margin-bottom: 34px;
+    padding-left: 59px;
+  }
+
+  .line__label--check::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .visually-hidden:checked + .line__label--res::before {
+    width: 40px;
+    height: 40px;
+    border: 10px solid #ffffff;
+  }
+
+  .line__decorate {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 10px 10px 23px;
+  }
+
+  .line__input {
     margin-bottom: 20px;
+  }
+
+  .line__legend--contact::after,
+  .line__legend--comment::after,
+  .line__legend--extra::after {
+    content: none;
+  }
+
+  .line__text {
+    padding-left: 70px;
+    padding-right: 40px;
   }
 }
 
 @media (min-width: 1300px) {
   .line__legend {
-    margin-bottom: 84px;
+    margin-bottom: 76px;
   }
 
   .line__ul-contact {
     display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .line__text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .line__ul-contact li:first-child {
+    margin-right: 79px;
+  }
+
+  .line__ul-contact li {
+    width: 570px;
+  }
+
+  .line__ul-info li {
+    width: 570px;
+  }
+
+  .line__decorate {
+    padding: 8px 10px 12px 23px;
+  }
+
+  .line__icon-mail1 {
+    top: 19px;
+    right: 20px;
+  }
+
+  .line__icon-phone1 {
+    top: 16px;
+    right: 18px;
+  }
+
+  .line__ul-add {
+    margin-top: -13px;
+    margin-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .line__ul-add li {
+    margin-right: 125px;
+    width: 200px;
+  }
+
+  .line__ul-add li:nth-of-type(2n):not(:last-child) {
+    margin-right: 125px;
   }
 }

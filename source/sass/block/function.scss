@@ -4,10 +4,11 @@
   line-height: 37px;
   font-weight: 400;
   color: #111111;
-  padding-top: 38px;
+  padding-top: 30px;
   text-transform: uppercase;
   position: relative;
   padding-left: 70px;
+  margin-bottom: 25px;
 }
 
 .function__tittle::before {
@@ -17,7 +18,7 @@
   position: absolute;
   background-color: #68b738;
   left: 0;
-  top: 30px;
+  top: 25px;
   border-radius: 50%;
 }
 
@@ -29,7 +30,7 @@
   position: absolute;
   background-repeat: no-repeat;
   left: 8px;
-  top: 27px;
+  top: 22px;
 }
 
 .function__tittle--2::after {
@@ -39,19 +40,20 @@
   height: 28px;
   position: absolute;
   background-repeat: no-repeat;
-  left: -10px;
-  top: 42px;
+  left: -8px;
+  top: 34px;
 }
 
-.function p {
+.function__p {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   color: #444444;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 23px;
-  margin-bottom: 20px;
+  padding-bottom: 22px;
+  margin-bottom: 17px;
+  margin-top: 27px;
   width: 240px;
 }
 
@@ -61,7 +63,7 @@
   padding-left: 21px;
 }
 
-.function__wrapper a {
+.function__catalog {
   color: #111111;
   position: relative;
   text-transform: uppercase;
@@ -69,19 +71,18 @@
   line-height: 16px;
 }
 
-.function__wrapper a::after {
+.function__catalog::after {
   content: "";
   background: url("../img/icon-right-arrow-long.svg");
   position: absolute;
   width: 24px;
   height: 11px;
   top: 7px;
-  left: 100px;
+  left: 96px;
 }
 
 .function {
   margin: 0 auto;
-  margin-bottom: 32px;
   width: 280px;
 }
 
@@ -94,7 +95,7 @@
 
   .function h2 {
     font-size: 36px;
-    padding-top: 81px;
+    padding-top: 76px;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -103,15 +104,15 @@
   .function__tittle::before {
     width: 200px;
     height: 200px;
-    left: 395px;
-    top: 95px;
+    left: 394px;
+    top: 92px;
   }
 
   .function__tittle--1::after {
     width: 140px;
     height: 194px;
-    left: 423px;
-    top: 82px;
+    left: 424px;
+    top: 80px;
   }
 
   .function__tittle--2::after {
@@ -123,30 +124,37 @@
 
   .function__wrapper {
     margin-bottom: 30px;
-    padding-left: 51px;
+    padding-left: 52px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
+    min-height: 372px;
   }
 
-  .function p {
+  .function__p {
     font-size: 16px;
     line-height: 24px;
     color: #222222;
     border: none;
     width: 372px;
     margin-bottom: 0;
-    padding-bottom: 61px;
+    padding-bottom: 56px;
+    margin-top: 25px;
   }
 
-  .function__wrapper a {
+  .function__p--2 {
+    width: 340px;
+  }
+
+  .function__catalog {
     font-family: "Oswald", "Arial", sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
-    margin-bottom: 62px;
+    margin-bottom: 55px;
   }
 
-  .function__wrapper a::after {
+  .function__catalog::after {
     content: "";
     background: url("../img/icon-right-arrow-long.svg");
     position: absolute;
@@ -154,6 +162,10 @@
     height: 11px;
     top: 6px;
     left: 132px;
+  }
+
+  .function__catalog--2::after {
+    left: 126px;
   }
 }
 
@@ -174,12 +186,12 @@
   }
 
   .function h2 {
-    padding-left: 166px;
+    padding-left: 162px;
   }
 
   .function p {
     margin-top: 75px;
-    padding-bottom: 36px;
+    padding-bottom: 28px;
   }
 
   .function__wrapper--1 {
@@ -190,20 +202,28 @@
     width: 100px;
     height: 100px;
     left: 0;
-    top: 50px;
+    top: 47px;
   }
 
   .function__tittle--1::after {
     width: 70px;
     height: 97px;
-    left: 15px;
-    top: 45px;
+    left: 14px;
+    top: 41px;
   }
 
   .function__tittle--2::after {
     width: 134px;
     height: 56px;
     left: -18px;
-    top: 72px;
+    top: 69px;
+  }
+
+  .function__p--1 {
+    width: 470px;
+  }
+
+  .function__p--2 {
+    width: 470px;
   }
 }

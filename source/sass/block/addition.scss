@@ -1,13 +1,14 @@
 .addition table {
-  margin-bottom: 14px;
+  margin-bottom: 17px;
+  border-collapse: collapse;
 }
 
 .addition li {
   list-style: none;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #ededed;
-  padding-bottom: 17px;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 16px;
 }
 
 .addition ul {
@@ -15,7 +16,7 @@
 }
 
 .addition li:first-child {
-  border-top: 1px solid #ededed;
+  border-top: 1px solid #cdcdcd;
 }
 
 .addition__name {
@@ -26,6 +27,7 @@
   color: #222222;
   text-transform: uppercase;
   text-align: left;
+  margin: 14px 0 9px 0;
 }
 
 .addition__value {
@@ -62,6 +64,20 @@
     line-height: 20px;
   }
 
+  .addition__value {
+    font-size: 16px;
+    line-height: 16px;
+    padding-right: 34px;
+    display: block;
+  }
+
+  .addition__price {
+    font-size: 16px;
+    line-height: 16px;
+    width: 60px;
+    padding: 0;
+  }
+
   .addition {
     width: 708px;
     margin: 0 auto;
@@ -69,6 +85,10 @@
 
   .addition__name {
     margin-right: auto;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
   }
 
   .addition ul {
@@ -77,21 +97,17 @@
     margin-bottom: 69px;
   }
 
-  .addition__price {
-    padding-left: 52px;
-  }
-
   .addition li {
-    border: 1px solid #ededed;
-    border-bottom: 1px;
-    padding: 28px 37px 27px 37px;
+    border: 1px solid #cdcdcd;
+    border-bottom: none;
+    padding: 26px 37px 26px 37px;
     display: flex;
     flex-flow: wrap;
     align-items: baseline;
   }
 
   .addition li:last-child {
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #cdcdcd;
   }
 }
 
@@ -104,29 +120,36 @@
 
   .addition__btn {
     width: 245px;
-    margin-left: 30px;
+    margin-left: 38px;
   }
 
   .addition li {
-    padding: 12px 0 12px 0;
+    padding: 16px 0 7px 0;
     border: none;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #cdcdcd;
   }
 
   .addition ul {
     width: 895px;
+    margin-bottom: 89px;
   }
 
   .addition__value {
-    width: 120px;
+    width: 170px;
   }
 
   .addition__name {
     width: 200px;
-    margin-right: 120px;
+    margin-right: 124px;
+    margin-bottom: 0;
   }
 
   .addition table {
-    width: 300px;
+    width: 288px;
+  }
+
+  .addition__price {
+    width: 44px;
+    text-align: left;
   }
 }
