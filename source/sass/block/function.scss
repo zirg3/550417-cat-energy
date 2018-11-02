@@ -81,6 +81,17 @@
   left: 96px;
 }
 
+.function__catalog:hover::after {
+  content: "";
+  background: url("../img/icon-right-arrow-verylong.svg");
+  position: absolute;
+  width: 33px;
+  height: 12px;
+  top: 7px;
+  left: 96px;
+  background-repeat: no-repeat;
+}
+
 .function {
   margin: 0 auto;
   width: 280px;
@@ -166,6 +177,11 @@
 
   .function__catalog--2::after {
     left: 126px;
+  }
+
+  .function__catalog:hover::after {
+    top: 6px;
+    left: 132px;
   }
 }
 

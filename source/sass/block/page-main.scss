@@ -85,4 +85,10 @@
     padding-right: 40px;
     margin: 0 auto;
   }
+
+  @media (min-resolution: 192dpi), (min-resolution: 2) {
+    .page-main__glob::before {
+      background-image: url("../img/index-background-desktop@2x.jpg");
+    }
+  }
 }
