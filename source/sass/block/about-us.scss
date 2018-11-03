@@ -26,7 +26,7 @@
 .about-us__wrapper {
   display: flex;
   padding: 30px 20px 26px 19px;
-  z-index: 12;
+  z-index: 888;
 }
 
 .about-us__wrapper p {
@@ -37,6 +37,11 @@
   display: block;
   margin-top: -39px;
   height: 400px;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: 333;
 }
 
 .about-us__map-pin {
@@ -49,6 +54,7 @@
   display: block;
   width: 55px;
   height: 53px;
+  z-index: 667;
 }
 
 .about-us__box--grey {
@@ -58,6 +64,15 @@
 .about-us__map {
   overflow: hidden;
   position: relative;
+}
+
+.about-us__map-google {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  z-index: 777;
 }
 
 @media (min-width: 768px) {
@@ -134,5 +149,10 @@
   .about-us__map-pin {
     left: auto;
     right: 22%;
+  }
+
+  .about-us__map-google {
+    height: 400px;
+    margin-top: -4px;
   }
 }
