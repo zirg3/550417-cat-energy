@@ -7,6 +7,9 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div style="display:none">
+      <include src="build/img/sprite1.svg"></include>
+    </div>
     <header class="page-header">
       <a class="page-header__logo" href="index.html">
         <picture>
@@ -60,7 +63,7 @@
               <div class="program__second-wrapper">
                 <ul class="line__ul-second">
                   <li class="line__li">
-                    <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-slim" checked>
+                    <input class="line__input visually-hidden line__check-radio" type="radio" name="weight" id="cat-slim" checked="">
                     <label class="line__label line__label--res" for="cat-slim">Похудение</label>
                   </li>
                   <li class="line__li">
@@ -109,7 +112,7 @@
               <legend class="line__legend line__legend--extra"><span class="line__span">Дополнительно</span></legend>
               <ul class="line__ul-add">
                 <li class="line__li line__li-add">
-                  <input class="line__input visually-hidden line__check-radio" type="checkbox" name="weight" id="cat-sugar" checked>
+                  <input class="line__input visually-hidden line__check-radio" type="checkbox" name="weight" id="cat-sugar" checked="">
                   <label class="line__label line__label--check" for="cat-sugar">Сахарозаменитель</label>
                 </li>
                 <li class="line__li line__li-add">
@@ -148,7 +151,11 @@
         </div>
         <div class="about-us__map">
           <img class="about-us__map-pin" src="img/map-pin.png" width="124" height="106" alt="маркер">
+          <iframe class="about-us__map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1539932726030" width="320" height="363" style="border:0" allowfullscreen=""></iframe>
           <picture>
+            <source media="(min-width: 1300px)" type="image/webp" srcset="img/bg-map-desktop@1x.webp, img/bg-map-desktop@2x.webp 2x">
+            <source media="(min-width: 768px)" type="image/webp" srcset="img/bg-map-tablet@1x.webp, img/bg-map-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/bg-map-mobile@1x.webp, img/bg-map-mobile@2x.webp 2x">
             <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
             <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
             <img class="about-us__map-img" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x" width="320" height="363" alt="карта">
@@ -163,26 +170,26 @@
           <ul>
             <li><a class="social__link social__link--vkontakte" href="#">
               <svg class="social__icon" width="22" height="12">
-                <use xlink:href="img/sprite.svg#icon-vk-mob"></use>
+                <use xlink:href="#icon-vk-mobile"></use>
               </svg>
-              <svg class="social__icon" width="34" height="22">
-                <use xlink:href="img/sprite.svg#icon-vk"></use>
+              <svg class="social__icon" width="30" height="16">
+                <use xlink:href="#icon-vk"></use>
               </svg></a>
             </li>
             <li><a class="social__link social__link--instagram" href="#">
               <svg class="social__icon" width="16" height="16">
-                <use xlink:href="img/sprite.svg#icon-insta-mob"></use>
+                <use xlink:href="#icon-insta-mobile"></use>
               </svg>
               <svg class="social__icon" width="23" height="23">
-                <use xlink:href="img/sprite.svg#icon-insta-mob"></use>
+                <use xlink:href="#icon-insta"></use>
               </svg></a>
             </li>
             <li><a class="social__link social__link--facebook" href="#">
               <svg class="social__icon" width="10" height="19">
-                <use xlink:href="img/sprite.svg#icon-fb-mob"></use>
+                <use xlink:href="#icon-fb-mobile"></use>
               </svg>
               <svg class="social__icon" width="14" height="28">
-                <use xlink:href="img/sprite.svg#icon-fb-mob"></use>
+                <use xlink:href="#icon-fb"></use>
               </svg></a>
             </li>
           </ul>
@@ -191,7 +198,7 @@
           <a href="https://htmlacademy.ru/intensive/adaptive">
             <p class="copyright__academy">HTML Academy</p>
             <svg class="copyright__academy-logo" width="27" height="34">
-              <use xlink:href="img/sprite.svg#academy-logo"></use>
+              <use xlink:href="#htmlacademy"></use>
             </svg>
           </a>
         </div>
