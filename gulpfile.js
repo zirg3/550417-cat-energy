@@ -63,7 +63,7 @@ gulp.task("sprite", function () {
       inlineSvg: true
     }))
     .pipe(rename("sprite1.svg"))
-    .pipe(gulp.dest("build/img/svg-sprite"));
+    .pipe(gulp.dest("build/img"));
 });
 
 gulp.task("images", function () {
