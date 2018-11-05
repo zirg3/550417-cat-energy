@@ -308,7 +308,8 @@
   }
 
   .example__cost {
-    position: initial;
+    position: static;
+    text-align: left;
     width: 328px;
     margin-top: 59px;
   }
@@ -316,7 +317,7 @@
   .example__span {
     display: inline-block;
     margin-top: 0;
-    padding-left: 59px;
+    padding-left: 58px;
   }
 
   .example__story {
