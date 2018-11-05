@@ -38,10 +38,6 @@
     opacity: 0.3;
     fill: #68b738;
   }
-
-  &:last-of-type {
-    display: none;
-  }
 }
 
 @media (min-width: 768px) {
@@ -59,13 +55,24 @@
   }
 
   .social__icon {
-    &:first-of-type {
-      display: none;
-    }
-
     &:last-of-type {
       display: block;
     }
+  }
+
+  .social__icon--vkontakte {
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__icon--instagram {
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__icon--facebook {
+    width: 14px;
+    height: 28px;
   }
 }
 
