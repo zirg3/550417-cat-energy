@@ -19,6 +19,7 @@
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 0;
 }
 
 .program__first {
@@ -240,13 +241,6 @@
     background-color: #68b738;
     position: absolute;
     top: 20px;
-  }
-
-  .line__span {
-    background-color: #ffffff;
-    width: 410px;
-    padding-right: 36px;
-    padding-left: 37px;
   }
 }
 

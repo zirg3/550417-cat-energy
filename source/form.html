@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+    <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <div style="display:none">
@@ -80,20 +82,20 @@
           </div>
           <div class="program__green-line">
             <fieldset class="program__contact line">
-              <legend class="line__legend line__legend--contact"><span class="line__span">Контактные данные (владельца кота)</span></legend>
+              <legend class="line__legend line__legend--contact"><span class="line__span">Контактные данные<br class="line__br">(владельца кота)</span></legend>
               <ul class="line__ul-contact">
                 <li class="line__li">
                   <label class="line__label" for="cat-email">E-mail:*</label>
                   <input class="line__input line__decorate line__icon-mail" type="email" name="email" id="cat-email" placeholder="kuklachev@gmail.com">
                   <svg class="line__icon-mail1" width="17" height="13">
-                    <use xlink:href="img/sprite.svg#icon-mail"></use>
+                    <use xlink:href="#icon-mail"></use>
                   </svg>
                 </li>
                 <li class="line__li">
                   <label class="line__label" for="cat-tel">Телефон:*</label>
                   <input class="line__input line__decorate line__icon-phone" type="tel" name="tel" id="cat-tel" placeholder="8 (960) 900-60-90">
                   <svg class="line__icon-phone1" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                    <use xlink:href="#icon-phone"></use>
                   </svg>
                 </li>
               </ul>
@@ -163,33 +165,24 @@
         </div>
       </section>
       <div class="page-footer__wrapper">
-        <a class="page-footer__logo">
+        <a class="page-footer__logo" href="index.html">
           <img src="img/logo-footer.svg" width="128" height="24" alt="логотип">
         </a>
         <div class="page-footer__social social">
           <ul>
-            <li><a class="social__link social__link--vkontakte" href="#">
-              <svg class="social__icon" width="22" height="12">
+            <li><a class="social__link" href="#">
+              <svg class="social__icon social__icon--vkontakte" width="22" height="12">
                 <use xlink:href="#icon-vk-mobile"></use>
-              </svg>
-              <svg class="social__icon" width="30" height="16">
-                <use xlink:href="#icon-vk"></use>
               </svg></a>
             </li>
-            <li><a class="social__link social__link--instagram" href="#">
-              <svg class="social__icon" width="16" height="16">
+            <li><a class="social__link" href="#">
+              <svg class="social__icon social__icon--instagram" width="16" height="16">
                 <use xlink:href="#icon-insta-mobile"></use>
-              </svg>
-              <svg class="social__icon" width="23" height="23">
-                <use xlink:href="#icon-insta"></use>
               </svg></a>
             </li>
-            <li><a class="social__link social__link--facebook" href="#">
-              <svg class="social__icon" width="10" height="19">
+            <li><a class="social__link" href="#">
+              <svg class="social__icon social__icon--facebook" width="10" height="19">
                 <use xlink:href="#icon-fb-mobile"></use>
-              </svg>
-              <svg class="social__icon" width="14" height="28">
-                <use xlink:href="#icon-fb"></use>
               </svg></a>
             </li>
           </ul>

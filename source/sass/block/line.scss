@@ -23,6 +23,7 @@
   color: #222222;
   position: relative;
   padding-right: 15px;
+  white-space: nowrap;
 }
 
 .line__legend {
@@ -40,7 +41,7 @@
   content: "";
   position: absolute;
   top: 13px;
-  right: -20px;
+  right: -120px;
   background-color: #68b738;
   height: 3px;
   width: 99px;
@@ -78,6 +79,7 @@
   opacity: 0.5;
   outline: none;
   text-transform: uppercase;
+  min-width: 120px;
 
   &:hover {
     opacity: 1;
@@ -307,6 +309,17 @@
   .line__text {
     padding-left: 70px;
     padding-right: 40px;
+  }
+
+  .line__span {
+    background-color: #ffffff;
+    width: 410px;
+    padding-right: 36px;
+    padding-left: 37px;
+  }
+
+  .line__br {
+    display: none;
   }
 }
 

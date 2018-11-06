@@ -218,6 +218,22 @@
     border: 12px solid #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
     border-radius: 50%;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      border: 2px solid #68b738;
+      top: -12px;
+      left: -12px;
+      display: none;
+    }
+
+    &:active::after {
+      display: block;
+    }
   }
 
   .example__toggle {
@@ -292,7 +308,8 @@
   }
 
   .example__cost {
-    position: initial;
+    position: static;
+    text-align: left;
     width: 328px;
     margin-top: 59px;
   }
@@ -300,7 +317,7 @@
   .example__span {
     display: inline-block;
     margin-top: 0;
-    padding-left: 59px;
+    padding-left: 58px;
   }
 
   .example__story {
