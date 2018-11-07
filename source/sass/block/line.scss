@@ -254,15 +254,15 @@
     padding-right: 40px;
   }
 
-  .line__ul-add li:nth-of-type(2n) {
-    margin-right: 0;
-  }
-
   .line__ul-add li {
     width: 280px;
     margin: 0;
     margin-bottom: 29px;
     margin-right: 64px;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
   }
 
   .line__label {
@@ -340,12 +340,12 @@
     padding-right: 40px;
   }
 
-  .line__ul-contact li:first-child {
-    margin-right: 79px;
-  }
-
   .line__ul-contact li {
     width: 570px;
+
+    &:first-child {
+      margin-right: 79px;
+    }
   }
 
   .line__ul-info li {
@@ -376,9 +376,9 @@
   .line__ul-add li {
     margin-right: 125px;
     width: 200px;
-  }
 
-  .line__ul-add li:nth-of-type(2n):not(:last-child) {
-    margin-right: 125px;
+    &:nth-of-type(2n):not(:last-child) {
+      margin-right: 125px;
+    }
   }
 }

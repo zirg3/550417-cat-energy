@@ -9,14 +9,14 @@
   flex-direction: column;
   border-bottom: 1px solid #cdcdcd;
   padding-bottom: 16px;
+
+  &:first-child {
+    border-top: 1px solid #cdcdcd;
+  }
 }
 
 .addition ul {
   margin-bottom: 39px;
-}
-
-.addition li:first-child {
-  border-top: 1px solid #cdcdcd;
 }
 
 .addition__name {
@@ -108,10 +108,10 @@
     display: flex;
     flex-flow: wrap;
     align-items: baseline;
-  }
 
-  .addition li:last-child {
-    border-bottom: 1px solid #cdcdcd;
+    &:last-child {
+      border-bottom: 1px solid #cdcdcd;
+    }
   }
 }
 
