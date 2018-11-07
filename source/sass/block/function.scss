@@ -166,13 +166,13 @@
     margin-bottom: 55px;
 
     &::after {
-    content: "";
-    background: url("../img/icon-right-arrow-long.svg");
-    position: absolute;
-    width: 24px;
-    height: 11px;
-    top: 6px;
-    left: 132px;
+      content: "";
+      background: url("../img/icon-right-arrow-long.svg");
+      position: absolute;
+      width: 24px;
+      height: 11px;
+      top: 6px;
+      left: 132px;
     }
 
     &--2::after {
@@ -239,7 +239,6 @@
   }
 
   .function__p {
-
     &--1 {
       width: 470px;
     }
