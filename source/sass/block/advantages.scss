@@ -27,55 +27,58 @@
   list-style: none;
   margin-left: 40px;
   position: relative;
-}
 
-.advantages__item::before {
-  content: "";
-  background-color: #68b738;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-position: 50%;
-  right: 220px;
-  top: -3px;
-  background-repeat: no-repeat;
-}
+  &::before {
+    content: "";
+    background-color: #68b738;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-position: 50%;
+    right: 220px;
+    top: -3px;
+    background-repeat: no-repeat;
+  }
 
-.advantages__item--1::before {
-  background-image: url("../img/advantage-leaf@1x.png");
-}
+  &--1::before {
+    background-image: url("../img/advantage-leaf@1x.png");
+  }
 
-.advantages__item--2::before {
-  background-image: url("../img/advantage-powder@1x.png");
-}
+  &--2::before {
+    background-image: url("../img/advantage-powder@1x.png");
+  }
 
-.advantages__item--3::before {
-  background-image: url("../img/advantage-dining@1x.png");
-}
+  &--3::before {
+    background-image: url("../img/advantage-dining@1x.png");
+  }
 
-.advantages__item--4::before {
-  background-image: url("../img/advantage-clock@1x.png");
+  &--4::before {
+    background-image: url("../img/advantage-clock@1x.png");
+  }
 }
 
 @media (min-resolution: 192dpi), (min-resolution: 2) {
-  .advantages__item--1::before {
-    background-image: url("../img/advantage-leaf@2x.png");
-    background-size: 50px 50px;
-  }
+  .advantages__item {
 
-  .advantages__item--2::before {
-    background-image: url("../img/advantage-powder@2x.png");
-    background-size: 50px 50px;
-  }
+    &--1::before {
+      background-image: url("../img/advantage-leaf@2x.png");
+      background-size: 50px 50px;
+    }
 
-  .advantages__item--3::before {
-    background-image: url("../img/advantage-dining@2x.png");
-    background-size: 50px 50px;
-  }
+    &--2::before {
+      background-image: url("../img/advantage-powder@2x.png");
+      background-size: 50px 50px;
+    }
 
-  .advantages__item--4::before {
-    background-image: url("../img/advantage-clock@2x.png");
-    background-size: 50px 50px;
+    &--3::before {
+      background-image: url("../img/advantage-dining@2x.png");
+      background-size: 50px 50px;
+    }
+
+    &--4::before {
+      background-image: url("../img/advantage-clock@2x.png");
+      background-size: 50px 50px;
+    }
   }
 }
 
@@ -109,54 +112,54 @@
     height: 230px;
     padding-right: 138px;
     margin-top: 73px;
-  }
 
-  .advantages__item:nth-child(2n) {
-    padding-right: 0;
-  }
+    &:nth-child(2n) {
+      padding-right: 0;
+    }
 
-  .advantages__item:nth-child(3),
-  .advantages__item:nth-child(4) {
-    margin-top: 86px;
-  }
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-top: 86px;
+    }
 
-  .advantages__item::before {
-    width: 80px;
-    height: 80px;
-    right: auto;
-    top: 0;
-  }
+    &::before {
+      width: 80px;
+      height: 80px;
+      right: auto;
+      top: 0;
+    }
 
-  .advantages__item::after {
-    content: "";
-    font-family: "Oswald", "Arial", sans-serif;
-    font-weight: 400;
-    position: absolute;
-    font-size: 286px;
-    top: 88px;
-    left: 113px;
-    color: #f2f2f2;
-    z-index: -666;
+    &::after {
+      content: "";
+      font-family: "Oswald", "Arial", sans-serif;
+      font-weight: 400;
+      position: absolute;
+      font-size: 286px;
+      top: 88px;
+      left: 113px;
+      color: #f2f2f2;
+      z-index: -666;
+    }
+
+    &--1::after {
+      content: "1";
+    }
+
+    &--2::after {
+      content: "2";
+    }
+
+    &--3::after {
+      content: "3";
+    }
+
+    &--4::after {
+      content: "4";
+    }
   }
 
   .advantages__item p {
     padding-top: 96px;
-  }
-
-  .advantages__item--1::after {
-    content: "1";
-  }
-
-  .advantages__item--2::after {
-    content: "2";
-  }
-
-  .advantages__item--3::after {
-    content: "3";
-  }
-
-  .advantages__item--4::after {
-    content: "4";
   }
 }
 
@@ -180,10 +183,10 @@
 
   .advantages__item {
     padding-right: 0;
-  }
 
-  .advantages__item:nth-child(3),
-  .advantages__item:nth-child(4) {
-    margin-top: 72px;
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-top: 72px;
+    }
   }
 }

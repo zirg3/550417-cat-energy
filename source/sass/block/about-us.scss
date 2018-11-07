@@ -90,10 +90,10 @@
 
   .about-us__box {
     background-color: #ffffff;
-  }
 
-  .about-us__box--grey {
-    background-color: #f2f2f2;
+    &--grey {
+      background-color: #f2f2f2;
+    }
   }
 
   .about-us__invite {
