@@ -8,16 +8,16 @@
   width: 280px;
   margin: 28px auto;
   margin-bottom: 33px;
-}
 
-.page-main__addition-title::after {
-  content: "";
-  width: 53px;
-  height: 3px;
-  background-color: #68b738;
-  position: absolute;
-  top: 50%;
-  left: 247px;
+  &::after {
+    content: "";
+    width: 53px;
+    height: 3px;
+    background-color: #68b738;
+    position: absolute;
+    top: 50%;
+    left: 247px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -27,14 +27,24 @@
     margin-bottom: 80px;
     width: 708px;
     margin-top: 9px;
-  }
 
-  .page-main__addition-title::after {
-    content: none;
+    &::after {
+      content: none;
+    }
   }
 
   .page-main__wrapp {
     position: relative;
+
+    &::before {
+      content: "";
+      right: 0;
+      left: 0;
+      height: 3px;
+      background-color: #68b738;
+      position: absolute;
+      top: 63%;
+    }
   }
 
   .page-main__addition-title span {
@@ -43,32 +53,24 @@
     padding-right: 36px;
     padding-left: 37px;
   }
-
-  .page-main__wrapp::before {
-    content: "";
-    right: 0;
-    left: 0;
-    height: 3px;
-    background-color: #68b738;
-    position: absolute;
-    top: 63%;
-  }
 }
 
 @media (min-width: 1300px) {
-  .page-main__glob::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -2;
-    width: 50%;
-    height: 696px;
-    background-image: url("../img/index-background-desktop@1x.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-color: #65a93c;
+  .page-main__glob {
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -2;
+      width: 50%;
+      height: 696px;
+      background-image: url("../img/index-background-desktop@1x.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      background-color: #65a93c;
+    }
   }
 
   .page-main__addition-title {
@@ -87,8 +89,10 @@
   }
 
   @media (min-resolution: 192dpi), (min-resolution: 2) {
-    .page-main__glob::before {
-      background-image: url("../img/index-background-desktop@2x.jpg");
+    .page-main__glob {
+      &::before {
+        background-image: url("../img/index-background-desktop@2x.jpg");
+      }
     }
   }
 }

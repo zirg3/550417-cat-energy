@@ -17,10 +17,10 @@
   font-weight: 400;
   color: #444444;
   padding-right: 138px;
-}
 
-.copyright__academy:active {
-  opacity: 0.3;
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .copyright__academy:hover + .copyright__academy-logo {

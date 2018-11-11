@@ -10,15 +10,17 @@
   align-items: center;
   margin-top: 37px;
   margin-bottom: 31px;
-}
 
-.page-footer__logo img:hover {
-  opacity: 0.8;
-}
+  img {
+    &:hover {
+      opacity: 0.8;
+    }
 
-.page-footer__logo img:active,
-.page-footer__logo img:focus {
-  opacity: 0.6;
+    &:active,
+    &:focus {
+      opacity: 0.6;
+    }
+  }
 }
 
 @media (min-width: 768px) {

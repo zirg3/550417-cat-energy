@@ -90,10 +90,10 @@
 
   .about-us__box {
     background-color: #ffffff;
-  }
 
-  .about-us__box--grey {
-    background-color: #f2f2f2;
+    &--grey {
+      background-color: #f2f2f2;
+    }
   }
 
   .about-us__invite {
@@ -128,11 +128,12 @@
 
 @media (min-width: 1300px) {
   .about-us__wrapper {
-    position: absolute;
+    position: relative;
     background-color: #ffffff;
     width: 570px;
-    top: 91px;
-    left: 110px;
+    left: 210px;
+    top: 191px;
+    margin: -100px;
     padding: 64px 90px 58px 76px;
   }
 

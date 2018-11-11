@@ -15,15 +15,15 @@
 .page-header__logo {
   margin-top: 8px;
   margin-left: 9px;
-}
 
-.page-header__logo:hover {
-  opacity: 0.8;
-}
+  &:hover {
+    opacity: 0.8;
+  }
 
-.page-header__logo:active,
-.page-header__logo:focus {
-  opacity: 0.6;
+  &:active,
+  &:focus {
+    opacity: 0.6;
+  }
 }
 
 .page-header a {
